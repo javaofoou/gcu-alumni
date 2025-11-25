@@ -1,0 +1,98 @@
+.directory-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.directory-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 160px;
+}
+
+.alumni-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.alumni-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.alumni-card .photo {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.alumni-card .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.alumni-card .info {
+    padding: 15px;
+    text-align: left;
+}
+
+.alumni-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.alumni-card p {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.no-result {
+    text-align: center;
+    color: #666;
+    grid-column: 1 / -1;
+    padding: 20px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filters input, .filters select {
+        width: 100%;
+    }
+
+    .alumni-card {
+        flex-direction: column;
+    }
+
+    .alumni-card .info {
+        text-align: center;
+    }
+}
