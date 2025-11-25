@@ -62,7 +62,7 @@
         <h1>404</h1>
         <h2>Oops! Page Not Found</h2>
         <p>Sorry, the page you are looking for does not exist or has been moved.</p>
-        <a href="{{ url('/alumni-directory') }}" class="btn-home">Go Back Home</a>
+        <a href="{{ url('/') }}" class="btn-home">Go Back Home</a>
     </div>
 </div>
 </x-layouts.app>

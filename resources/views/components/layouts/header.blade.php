@@ -107,7 +107,7 @@
 </head>
  <header>
   <div class="header-top">
-   <a href="/alumni-directory"><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761476209/FB_IMG_1761475995419_boq5m0.jpg" class="logo" alt="Logo"></a> 
+   <a href="/"><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761476209/FB_IMG_1761475995419_boq5m0.jpg" class="logo" alt="Logo"></a> 
      <span id="header-clock" class="header-clock" aria-live="polite" title="Current time (Africa/Lagos)">
       <div class="clock-time" id="clock-time">--:--:--</div>
       <div class="clock-date" id="clock-date">Loading…</div>
@@ -126,7 +126,7 @@
     </button>
 
     <div class="links" id="nav-links">
-       <a href="/alumni-directory" class="ham-link"><i class="fa fa-home"></i></a>
+       <a href="/" class="ham-link"><i class="fa fa-home"></i></a>
       <a href="#" onclick="showHideAbout()" class="ham-link">About Us ▾</a>
       <ul class="dropdown-menu" id="about-box">
         <li><a href="#history">History</a></li>

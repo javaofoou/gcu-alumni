@@ -13,7 +13,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AlumniController;
 
 
-Route::get('/alumni-directory', function(){
+Route::get('/', function(){
     return view('alumni-directory');
 });
 
@@ -49,7 +49,6 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/profile{id}/edit', [AlumniProfileController::class, 'edit'])->name('profile.edit');
 Route::post('/profile/update', [AlumniProfileController::class, 'update'])->name('profile.update');
-
 
 Route::get('/alumni/classes', [AlumniController::class, 'classes'])->name('alumni.classes');
 Route::get('/alumni/class/{entry}', [AlumniController::class, 'viewClass'])->name('alumni.view.class');
