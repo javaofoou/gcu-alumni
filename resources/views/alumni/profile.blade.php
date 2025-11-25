@@ -151,7 +151,7 @@
             @if($alumni['image'])
                 <img src="{{ asset($alumni['image']) }}" alt="Profile Photo">
             @else
-                <img src="{{ asset('images/default-user.png') }}" alt="Default Photo">
+                <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1764094860/images_1_bfk9zw.jpg" alt="Default Photo">
             @endif
         </div>
 

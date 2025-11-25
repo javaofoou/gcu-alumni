@@ -145,7 +145,7 @@
                     @if(!empty($person['image']))
                         <img src="{{ $person['image'] }}" alt="{{ $person['name'] }}">
                     @else
-                        <img src="https://via.placeholder.com/300x180?text=No+Photo" alt="No Photo">
+                        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1764094860/images_1_bfk9zw.jpg" alt="No Photo">
                     @endif
                 </div>
                 <div class="alumni-info">

@@ -134,6 +134,7 @@
         <li><a href="/values">Our Core Values</a></li>
         <li><a href="/fedt">FEDT</a></li>
         <li><a href="/nec">NEC</a></li>
+        <li><a href="/alumni/classes">Class</a></li>
       </ul>
 
       <a href="/hall-of-fame" class="ham-link">Hall of Fame</a>

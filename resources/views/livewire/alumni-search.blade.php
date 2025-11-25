@@ -188,7 +188,7 @@
         <a href="{{ route('alumni.profile', $a['id']) }}" class="alumni-card-modern">
             <div class="alumni-card">
                 <div class="photo">
-                    <img src="{{ $a['image'] ?? '/images/default.png' }}" alt="{{ $a['name'] }}">
+                    <img src="{{ $a['image'] ?? 'https://res.cloudinary.com/dhxdkejh3/image/upload/v1764094860/images_1_bfk9zw.jpg' }}" alt="{{ $a['name'] }}">
                 </div>
                 <div class="info">
                     <h3>{{ $a['name'] }}</h3>

@@ -187,7 +187,7 @@ Edit Profile
                     @if(!empty($alumni['image']))
                         <img src="{{ $alumni['image'] }}" alt="Profile">
                     @else
-                        <img src="{{ asset('images/default-user.png') }}" alt="Profile">
+                        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1764094860/images_1_bfk9zw.jpg" alt="Profile">
                     @endif
                 </div>
             </div>
