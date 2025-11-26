@@ -487,7 +487,7 @@
   </div>
 
   <div class="hof-footer">
-    <a href="hall_of_fame.html" class="hof-btn"><i class="fas fa-users"></i> View More Inductees</a>
+    <a href="/hall-of-fame" class="hof-btn"><i class="fas fa-users"></i> View More Inductees</a>
   </div>
 </section>
 
