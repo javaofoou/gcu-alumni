@@ -1,4 +1,4 @@
- <x-layouts.header/>
+ <x-layouts.app/>
  
     <style>
     /* ===== MAIN SECTION ===== */

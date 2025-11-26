@@ -1,4 +1,4 @@
- <x-layouts.header/>
+ <x-layouts.app/>
 <!-- ===== BRANCHES SECTION ===== -->
   <section class="branch-section">
     <h2 class="branch-title">Major Alumni Branches & Chapters</h2>
