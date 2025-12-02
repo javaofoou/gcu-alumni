@@ -33,7 +33,7 @@ class AuthController extends Controller{
 
       
 
-     Ensure email matches
+    // Ensure email matches
     if ($req->email !== $alumni['email']) {
         return back()->withErrors(['email' => 'Email must match the one used in Alumni Profile Creation.']);
     }
