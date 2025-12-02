@@ -96,7 +96,7 @@ if (!$user) {
         //$verifyLink = route('verify', ['token' => $token]);
         //Mail::raw("Click to verify your email: $verifyLink", function ($msg) use ($req) {
            // $msg->to($req->email)->subject('Verify your Alumni Email');
-     });
+     //});
 
         return redirect('/login')->with('success', 'Account created.');
     }
