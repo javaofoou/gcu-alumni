@@ -6,14 +6,13 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
-//use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Auth;
 
 
 class AuthController extends Controller{
     public function showCreateAccount()
     {
-        dd(session()->all());
         if (!session()->has('alumni_data')) {
             return redirect('/alumni/register')->with('error', 'Please fill the alumni form first.');
         }
@@ -91,28 +90,28 @@ if (!$user) {
         ]));
 
          //3) Email Verification link
-        //$token = Str::random(40);
-       //session(['verify_token' => $token]);
+          $token = Str::random(40);
+          session(['verify_token' => $token]);
 
-        //$verifyLink = route('verify', ['token' => $token]);
-        //Mail::raw("Click to verify your email: $verifyLink", function ($msg) use ($req) {
-           // $msg->to($req->email)->subject('Verify your Alumni Email');
-     //});
+        $verifyLink = route('verify', ['token' => $token]);
+        Mail::raw("Click to verify your email: $verifyLink", function ($msg) use ($req) {
+        $msg->to($req->email)->subject('Verify your Alumni Email');
+        });
 
         return redirect('/login')->with('success', 'Account created.');
     }
 
 
-    //public function verifyEmail($token)
-    //{
-        //if ($token != session('verify_token')) {
-         //abort(403, 'Invalid token');
-        //}
+       public function verifyEmail($token)
+       {
+        if ($token != session('verify_token')) {
+        abort(403, 'Invalid token');
+        }
 
-        //session()->forget('verify_token');
+        session()->forget('verify_token');
 
-        //return redirect('/login')->with('success', 'Email Verified! You can now log in.');
-    //}
+        return redirect('/login')->with('success', 'Email Verified! You can now log in.');
+    }
 
     public function showLogin() {
         return view('auth.login');
@@ -154,7 +153,7 @@ public function login(Request $req){
 
 public function dashboard() 
 {
-    $user = session('alumni_data');
+    $user = session('alumni_user');
     if (!$user) {
         return redirect()->route('login')->with('error', 'Please login first');
     }
