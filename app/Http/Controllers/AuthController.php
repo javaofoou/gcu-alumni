@@ -13,12 +13,11 @@ use Illuminate\Support\Facades\Auth;
 class AuthController extends Controller{
     public function showCreateAccount()
     {
-          dd(session()->all());
-    //     if (!session()->has('alumni_data')) {
-    //         return redirect('/alumni/register')->with('error', 'Please fill the alumni form first.');
-    //     }
-    //     return view('auth.register');
-    // }
+        if (!session()->has('alumni_data')) {
+            return redirect('/alumni/register')->with('error', 'Please fill the alumni form first.');
+        }
+        return view('auth.register');
+    }
 
     public function createAccount(Request $req)
     {
