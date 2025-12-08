@@ -153,7 +153,7 @@ public function login(Request $req){
 
 public function dashboard() 
 {
-    $user = session('alumni_user');
+    $user = session('alumni_data');
     if (!$user) {
         return redirect()->route('login')->with('error', 'Please login first');
     }
