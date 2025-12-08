@@ -44,6 +44,13 @@ Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
 Route::get('/dashboard', [AuthController::class, 'dashboard'])->middleware('auth.session');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
+Route::get('/https-check', function (Illuminate\Http\Request $request) {
+    return $request->header('X-Forwarded-Proto') === 'https'
+        ? '✅ HTTPS via proxy'
+        : '❌ Not HTTPS';
+});
+
+
 Route::get('/https-test', function () {
     return request()->isSecure() ? '✅ HTTPS detected' : '❌ Not HTTPS';
 });
