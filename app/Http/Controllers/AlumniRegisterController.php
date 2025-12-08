@@ -85,6 +85,7 @@ class AlumniRegisterController extends Controller
                 'image' => $imageUrl
             ]
         ]);
-        return redirect('/create-account')->with('success', 'Profile saved. Continue creating your account.');
+         dd(session()->all());
+        // return redirect('/create-account')->with('success', 'Profile saved. Continue creating your account.');
     }
 }
