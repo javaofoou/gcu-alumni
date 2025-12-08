@@ -4,7 +4,9 @@
   <script src="https://kit.fontawesome.com/07fa3d3b0b.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
- 
+
+  <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+ <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 <style>
 body {font-family: Arial, sans-serif; background:#fafafa; margin:0; padding:0;}
 .container {max-width:400px; margin:80px auto; background:#fff; padding:25px; border-radius:8px; box-shadow:0 4px 14px rgba(0,0,0,0.1);}
@@ -13,8 +15,6 @@ input {width:100%; padding:12px; margin-top:8px; border:1px solid #bbb; border-r
 form button {width:100%; background:#B22222; color:#fff; border:none; padding:12px; border-radius:6px; margin-top:15px; cursor:pointer;}
 .alert {padding:10px; background:#ffecec; border:1px solid #ffb3b3; color:#a70000; border-radius:6px; margin-bottom:10px;}
 </style>
-    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
- <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
 <div class="form-container">
