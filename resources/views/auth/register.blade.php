@@ -54,7 +54,7 @@ form button {width:100%; background:#B22222; color:#fff; border:none; padding:12
       </div>
     </div>
 
-    <button type="submit" style="width: 120px;height: 42px; display: flex;justify-content: center;align-items: center;color: white;background-color: red;margin-left: 45%;margin-top:30px;border: 0px;border-radius:12px;">Submit</button>
+    <button type="submit" style="width:80%;height: 40px;font-weight:bold; display: flex;justify-content: center;align-items: center;color: white;background-color: red;margin-left: 10%;margin-top:30px;border: 0px;border-radius:15px;">Submit</button>
   </form>
 </div>
 </body>
