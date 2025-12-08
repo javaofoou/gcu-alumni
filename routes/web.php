@@ -52,6 +52,15 @@ Route::get('/check-https', function () {
     }
 });
 
+Route::get('/session-test', function () {
+    // Store a test value in session
+    session(['test_key' => '✅ Session works!']);
+
+    // Retrieve it
+    $value = session('test_key', '❌ Session not found');
+
+    return "Session value: " . $value;
+});
 
 
 
