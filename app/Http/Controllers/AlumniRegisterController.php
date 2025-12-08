@@ -62,7 +62,7 @@ class AlumniRegisterController extends Controller
         }
     }  
 
-        dd(session()->all());
+    
         // Store in session
         session([
             'alumni_data' => [
@@ -85,6 +85,6 @@ class AlumniRegisterController extends Controller
                 'image' => $imageUrl
             ]
         ]);
-        // return redirect('/create-account')->with('success', 'Profile saved. Continue creating your account.');
+         return redirect('/create-account')->with('success', 'Profile saved. Continue creating your account.');
     }
 }
