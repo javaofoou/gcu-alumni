@@ -9,7 +9,7 @@ class AuthSession
 {
     public function handle(Request $request, Closure $next)
     {
-        if (!$request->session()->has('alumni_user')) {
+        if (!$request->session()->has('alumni_data')) {
             return redirect()->route('login')->with('error', 'Please login first.');
         }
 
