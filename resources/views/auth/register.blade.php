@@ -14,7 +14,7 @@ h2 {text-align:center; color:#B22222;}
 input {width:100%; padding:12px; margin-top:8px; border:1px solid #bbb; border-radius:6px;}
 form button {width:100%; background:#B22222; color:#fff; border:none; padding:12px; border-radius:6px; margin-top:15px; cursor:pointer;}
 .alert {padding:10px; background:#ffecec; border:1px solid #ffb3b3; color:#a70000; border-radius:6px; margin-bottom:10px;}
-    .button{
+   form button{
        width: 120px;
         height: 45px;
         display: flex;
