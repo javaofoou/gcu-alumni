@@ -44,6 +44,14 @@ Route::post('/login', [AuthController::class, 'login'])->name('login.submit');
 Route::get('/dashboard', [AuthController::class, 'dashboard'])->middleware('auth.session');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
+Route::get('/check-https', function () {
+    if (request()->isSecure()) {
+        return '✅ HTTPS is enabled';
+    } else {
+        return '❌ Not HTTPS';
+    }
+});
+
 
 
 
