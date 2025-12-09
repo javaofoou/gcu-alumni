@@ -1,4 +1,5 @@
   <x-layouts.app/>
+  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   <!-- HALL OF FAME GRID -->
   <section class="hof-page">
   <div class="hof-container">
