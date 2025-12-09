@@ -155,10 +155,43 @@
       </div>
     </div>
 
+   <!-- AIMS & OBJECTIVE BOX -->
+    <div class="mission-box">
+      <h2><i class="fas fa-quote-left"></i> Aims and Objectives<i class="fas fa-quote-right"></i></h2>
+      <p>1. To bring our vast and strong Alumni member base together with an aim of providing a forum towards strengthening our professional, and business ties.
+</p>
+    <p>2. To assist members through networking and updating with a rapidly evolving, and tech innovative dynamic globe.
+</p>
+    <p>3. To contribute to the restoration of our great Alma mater; Umuahia, and to foster the legacy of her founders.</p>
+    
+    <p>4. To work towards the enhancement of standard of education in Umuahia.</p>
+        <p>5. To establish closer ties and cooperation of varied Alumni members redirecting, 
+            reconnecting such to our various global branches and identifying with closest branch and other pertinent GCUOBA branches worldwide.
+</p>
+        <p>6. To assist in the strengthening of the members through information and opportunity sharing, and mutual assistance.
+</p>
+        <p>7. To co-operate with other Alumni members that have shared values as ours eg Elton, 
+            Achimota, King's, Queens' to mention a few, and a possible network with such- as agreed by our members.
+</p>
+    <p>8. To protect, defend and promote the culture, values, traditions, and welfare of the alumni community of Umuahia.
+</p>
+        <p>9. To conduct fundraisers for specific projects such as rebuilding of dilapidated buildings,<br>
+            and equipping the school drawing the attention of capable but willing members, <br>
+            as well as well-wishers towards the development of our great Alma mater in Government College Umuahia, and in effect its students.
+</p>
+        <p>10. The list is inexaustive.</p>
+    </div>
     <!-- MISSION BOX -->
     <div class="mission-box">
       <h2><i class="fas fa-quote-left"></i> Our Mission <i class="fas fa-quote-right"></i></h2>
-      <p>To sustain the proud legacy of Government College Umuahia by fostering unity, promoting educational excellence, mentoring future leaders, and upholding the spirit of discipline, integrity, and service that defines every true Umuahian.</p>
+      <p>To maintain a lifelong connection between the alumni community providing a platform for networking, professional development,<br> and pertinent community service
+          especially towards our Alma mater community that defines us as true Umuahians.</p>
+    </div>
+     <!-- VISION BOX -->
+    <div class="mission-box">
+      <h2><i class="fas fa-quote-left"></i> Our Vission <i class="fas fa-quote-right"></i></h2>
+      <p>To sustain an enduring legacy of excellence, unity and support, fostering lifelong connections among Alumni and empowering future Umuahian leaders.</p>
+        <p>We aim to create a strong, inclusive community that promotes personal growth, professional success, and continuous engagement.</p>
     </div>
   </section>
    <x-layouts.footer/>
