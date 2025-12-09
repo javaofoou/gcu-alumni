@@ -59,17 +59,17 @@
   <p>Member Representing Umuahia North/Umuahia South/Ikwuano federal constituency in  Nigeria's Federal House of Representative.</p>
 </div>
   <div class="hof-card">
-  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765244695/WhatsApp_Image_2025-11-13_at_06.09.05_7f12f096_glwqwm.jpg">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765245114/WhatsApp_Image_2025-12-01_at_08.20.19_a6fa93ea_vmzrhp.jpg">
   <h3>Col. Austin Akobundu</h3>
   <p>Nigeria's Former Minister of State for Defense, and Current Serving Senator Representing Abia Central Senatorial District in the National Assembly.</p>
 </div>
       <div class="hof-card">
-  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765244695/WhatsApp_Image_2025-11-13_at_06.09.05_7f12f096_glwqwm.jpg">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765245382/WhatsApp_Image_2025-12-03_at_07.52.19_ab0a2137_ty5ci5.jpg">
   <h3>Dr Alvan E. Ikoku</h3>
   <p>Former Director for the Trade and Exchange Department- TED, Central Bank of Nigeria.</p>
 </div> 
 <div class="hof-card">
-  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765244695/WhatsApp_Image_2025-11-13_at_06.09.05_7f12f096_glwqwm.jpg">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765245103/WhatsApp_Image_2025-12-01_at_08.21.01_287d25d4_d1pk8p.jpg">
   <h3>Williams Orioha aka 2 Shots</h3>
   <p>Nigerian Music Artiste, Photographer and Film Maker.</p>
 </div> 
