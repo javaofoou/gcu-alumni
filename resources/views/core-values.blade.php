@@ -91,7 +91,7 @@
       line-height: 1.7;
       max-width: 850px;
       margin: 0 auto;
-      color: #fff;
+      color: black;
     }
 
     /* ===== FOOTER ===== */
