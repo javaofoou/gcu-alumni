@@ -47,7 +47,32 @@
   <h3>Ben Enwonwu</h3>
   <p>Painter and Sculptor</p>
 </div>
-
+<!-- 4. Christopher Okigbo -->
+<div class="hof-card">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1764025773/IMG-20251028-WA0026_1_cngdzb.jpg">
+  <h3>Christopher Okigbo</h3>
+  <p>Renowned Poet</p>
+</div>
+    <div class="hof-card">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765244695/WhatsApp_Image_2025-11-13_at_06.09.05_7f12f096_glwqwm.jpg">
+  <h3>Obi Aguocha</h3>
+  <p>Member Representing Umuahia North/Umuahia South/Ikwuano federal constituency in  Nigeria's Federal House of Representative.</p>
+</div>
+  <div class="hof-card">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765244695/WhatsApp_Image_2025-11-13_at_06.09.05_7f12f096_glwqwm.jpg">
+  <h3>Col. Austin Akobundu</h3>
+  <p>Nigeria's Former Minister of State for Defense, and Current Serving Senator Representing Abia Central Senatorial District in the National Assembly.</p>
+</div>
+      <div class="hof-card">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765244695/WhatsApp_Image_2025-11-13_at_06.09.05_7f12f096_glwqwm.jpg">
+  <h3>Dr Alvan E. Ikoku</h3>
+  <p>Former Director for the Trade and Exchange Department- TED, Central Bank of Nigeria.</p>
+</div> 
+<div class="hof-card">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765244695/WhatsApp_Image_2025-11-13_at_06.09.05_7f12f096_glwqwm.jpg">
+  <h3>Williams Orioha aka 2 Shots</h3>
+  <p>Nigerian Music Artiste, Photographer and Film Maker.</p>
+</div> 
 <div class="hof-card" onclick="openModal(4)">
   <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761513594/IMG-20251025-WA0031_1_rhwzan.jpg" alt="Chief Uche Ihediwa">
   <h3>Chief Uche C. Ihediwa, SAN</h3>
