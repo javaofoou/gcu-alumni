@@ -915,7 +915,7 @@ footer {
   width: 380px;
   height: 400px;
   border-radius: 15px;
-  object-fit: fit;
+  object-fit: contain;
   box-shadow: 0 5px 15px rgba(223, 1, 1, 0.3);
   transition: transform 0.4s ease;
 }
@@ -2371,8 +2371,8 @@ swiper-slide::after {
 }
 
 .hof-image img {
-  width: 300px;
-  height: 300px;
+  width: 380px;
+  height: 380px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
@@ -2403,8 +2403,8 @@ swiper-slide::after {
     text-align: center;
   }
   .hof-image img {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
   }
   .hof-quote h3 {
     font-size: 1.4rem;
