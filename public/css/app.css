@@ -911,7 +911,7 @@ footer {
   flex-direction: row-reverse;
 }
 
-.hof-img img {
+.hof-card img {
   width: 380px;
   height: 400px;
   border-radius: 15px;
@@ -2403,8 +2403,8 @@ swiper-slide::after {
     text-align: center;
   }
   .hof-image img {
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
   }
   .hof-quote h3 {
     font-size: 1.4rem;
