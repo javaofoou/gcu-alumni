@@ -167,10 +167,6 @@
                 <span class="divider">•</span>
                 House: <strong>{{ $alumni['house'] }}</strong>
             </p>
-
-            <a href="/profile{{ $alumni['id'] }}/edit" class="btn-modern">
-                <i class="fa-solid fa-pen"></i> Edit Profile
-            </a>
         </div>
     </div>
 
