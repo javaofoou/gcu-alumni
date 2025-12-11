@@ -24,7 +24,7 @@ class ReviewsController extends Controller
 
         $reviews = $response->json() ?? [];
 
-        return view('reviews.index', compact('reviews'));
+        return view('reviews', compact('reviews'));
     }
 
     public function storereview(Request $request)
