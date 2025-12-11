@@ -1,3 +1,4 @@
+<x-layouts.app/>
 <style>
     /* ===== GENERAL LAYOUT ===== */
 .review-section {
