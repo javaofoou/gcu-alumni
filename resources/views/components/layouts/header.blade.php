@@ -219,7 +219,7 @@
 
     <!-- Slide 3 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801438/IMG-20251025-WA0068_1_csdspt.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469800/IMG-20251209-WA0029_axzt4t.jpg"/>
         <div class="slide-caption">
             <h2>Empowering Generations</h2>
             <p>Sharing wisdom, experience, and inspiration across years.</p>
@@ -246,7 +246,7 @@
 
     <!-- Slide 6 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801357/IMG-20251028-WA0045_c8k5nn.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251029-WA0045_4_hibcqv.jpg"/>
         <div class="slide-caption">
             <h2>Alumni Engagement</h2>
             <p>Active participation, collaboration, and meaningful impact.</p>
@@ -255,7 +255,7 @@
 
     <!-- Slide 7 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801401/IMG-20251028-WA0042_on7c27.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251031-WA0014_dghhc8.jpg"/>
         <div class="slide-caption">
             <h2>Sharing Success Stories</h2>
             <p>Highlighting achievements that inspire the next generation.</p>
@@ -264,7 +264,7 @@
 
     <!-- Slide 8 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801501/IMG-20251029-WA0045_1_dlntck.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251209-WA0032_ogeumr.jpg"/>
         <div class="slide-caption">
             <h2>Collaborative Learning</h2>
             <p>Engage in knowledge exchange and professional growth.</p>
@@ -273,7 +273,7 @@
 
     <!-- Slide 9 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801365/IMG-20251028-WA0044_lvwsgc.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469823/IMG-20251031-WA0005_uscpnh.jpg"/>
         <div class="slide-caption">
             <h2>Event Highlights</h2>
             <p>Memorable alumni gatherings that bring energy and fun.</p>
@@ -282,7 +282,7 @@
 
     <!-- Slide 10 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801455/IMG-20251025-WA0037_1_w8hvue.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251209-WA0031_fyqck1.jpg"/>
         <div class="slide-caption">
             <h2>Community Spirit</h2>
             <p>Supporting each other while staying connected globally.</p>
@@ -291,7 +291,7 @@
 
     <!-- Slide 11 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761629961/IMG-20251022-WA0018_1_l2licq.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469800/IMG-20251209-WA0030_xzcder.jpg"/>
         <div class="slide-caption">
             <h2>Dynamic Gatherings</h2>
             <p>Alumni events filled with energy, laughter, and collaboration.</p>
@@ -309,7 +309,7 @@
 
     <!-- Slide 13 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801416/IMG-20251028-WA0068_dxmjuf.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469825/IMG-20251025-WA0026_1_ndtcsc.jpg"/>
         <div class="slide-caption">
             <h2>Inspiring Alumni</h2>
             <p>Stories of dedication, impact, and excellence in every field.</p>
@@ -327,7 +327,7 @@
 
     <!-- Slide 15 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761980768/WhatsApp-Image-2025-10-05-at-18.39.19_bborhb.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469824/IMG-20251025-WA0053_1_eubism.jpg"/>
         <div class="slide-caption">
             <h2>Connecting Generations</h2>
             <p>Linking past, present, and future Umuahians in harmony.</p>
@@ -345,7 +345,7 @@
 
     <!-- Slide 17 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801416/IMG-20251028-WA0068_dxmjuf.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251025-WA0033_1_dgd0mm.jpg"/>
         <div class="slide-caption">
             <h2>Legacy & Inspiration</h2>
             <p>Continuing the tradition of excellence for future alumni.</p>
