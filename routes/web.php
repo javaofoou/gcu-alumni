@@ -13,6 +13,9 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AlumniController;
 
 
+use App\Http\Controllers\ReviewsController;
+
+
 Route::get('/', function(){
     return view('alumni-directory');
 });
@@ -70,6 +73,10 @@ Route::get('/session-test', function () {
 
 Route::get('/profile{id}/edit', [AlumniProfileController::class, 'edit'])->name('profile.edit');
 Route::post('/profile/update', [AlumniProfileController::class, 'update'])->name('profile.update');
+
+
+Route::get('/reviews', [ReviewsController::class, 'getreview']);
+Route::post('/reviews', [ReviewsController::class, 'storereview']);
 
 Route::get('/alumni/classes', [AlumniController::class, 'classes'])->name('alumni.classes');
 Route::get('/alumni/class/{entry}', [AlumniController::class, 'viewClass'])->name('alumni.view.class');
