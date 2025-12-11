@@ -152,3 +152,5 @@
         </div>
     @endforeach
 </div>
+     <x-layouts.footer/>
+ <script src="{{ asset('js/header.js') }}"></script>
