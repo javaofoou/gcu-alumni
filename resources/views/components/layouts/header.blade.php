@@ -131,17 +131,24 @@
       <ul class="dropdown-menu" id="about-box">
         <li><a href="#history">History</a></li>
         <li><a href="/branch">Our Branch</a></li>
-        <li><a href="/values">Our Core Values</a></li>
-        <li><a href="/fedt">FEDT</a></li>
+          <li><a href="/values">Core Values</a></li>
+         <li><a href="/fedt">FEDT</a></li>
         <li><a href="/nec">NEC</a></li>
         <li><a href="/alumni/classes">Class</a></li>
-      </ul>
-
+      </ul> 
       <a href="/hall-of-fame" class="ham-link">Hall of Fame</a>
       <a href="/events" class="ham-link">Events</a>
       <a href="/gallery" class="ham-link"><i class="fa fa-image"></i> Gallery</a>
       <a href="/projects" class="ham-link"><i class="fa fa-building"></i> Projects</a>
-      <a href="/archives" class="ham-link"><i class="fa fa-box-archive"></i> Archive</a>
+      <!--<a href="/archives" class="ham-link"><i class="fa fa-box-archive"></i> Archive</a>-->
+    <a href="#" onclick="showHideAbout()" class="ham-link"><i class="fa fa-box-archive"></i>Archive ▾</a>
+      <ul class="dropdown-menu" id="about-box">
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/art">Art Gallery</a></li>
+        <li><a href="/social">Social Works</a></li>
+        <li><a href="/innovation">Recent Innovations</a></li>
+        <li><a href="/award">Awards</a></li>
+      </ul>
     </div>
     </div>
         <!-- RIGHT SIDE (AUTH BUTTONS) -->
