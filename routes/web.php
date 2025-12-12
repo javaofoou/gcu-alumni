@@ -33,6 +33,13 @@ Route::get('/gallery', [gcuPages::class, 'gallery'])->name('gallery');
 Route::get('/projects', [gcuPages::class, 'projects'])->name('projects');
 Route::get('/archives', [gcuPages::class, 'archives'])->name('archives');
 
+Route::get('/art', [gcuPages::class, 'art'])->name('art');
+Route::get('/social', [gcuPages::class, 'social'])->name('social');
+Route::get('/innovation', [gcuPages::class, 'innovation'])->name('innovation');
+Route::get('/award', [gcuPages::class, 'award'])->name('award');
+
+
+
 Route::get('/alumni/register', [AlumniRegisterController::class, 'showAlumniForm']);
 Route::post('/alumni/register', [AlumniRegisterController::class, 'storeAlumniSession'])->name('alumni.register.store');
 
