@@ -341,10 +341,123 @@ select {
         <input type="text" name="location" value="{{ old('location') }}">
       </div>
 
-      <div class="fields">
-        <label>Profession</label>
-        <input type="text" name="profession" value="{{ old('profession') }}">
-      </div>
+<div class="fields">
+  <label>Profession *</label>
+  <select name="profession" required>
+    <option value="">Select Profession</option>
+    <option value="Academia" {{ old('profession') == 'Academia' ? 'selected' : '' }}>Academia</option>
+    <option value="Accountant" {{ old('profession') == 'Accountant' ? 'selected' : '' }}>Accountant</option>
+    <option value="Activist" {{ old('profession') == 'Activist' ? 'selected' : '' }}>Activist</option>
+    <option value="Actor" {{ old('profession') == 'Actor' ? 'selected' : '' }}>Actor</option>
+    <option value="Administrator" {{ old('profession') == 'Administrator' ? 'selected' : '' }}>Administrator</option>
+    <option value="Agriculture" {{ old('profession') == 'Agriculture' ? 'selected' : '' }}>Agriculture</option>
+    <option value="Air Force" {{ old('profession') == 'Air Force' ? 'selected' : '' }}>Air Force</option>
+    <option value="Anthropologist" {{ old('profession') == 'Anthropologist' ? 'selected' : '' }}>Anthropologist</option>
+    <option value="Architect" {{ old('profession') == 'Architect' ? 'selected' : '' }}>Architect</option>
+    <option value="Artist" {{ old('profession') == 'Artist' ? 'selected' : '' }}>Artist</option>
+    <option value="Athlete" {{ old('profession') == 'Athlete' ? 'selected' : '' }}>Athlete</option>
+    <option value="Automobile Engineer" {{ old('profession') == 'Automobile Engineer' ? 'selected' : '' }}>Automobile Engineer</option>
+    <option value="Aeronautical Engineer" {{ old('profession') == 'Aeronautical Engineer' ? 'selected' : '' }}>Aeronautical Engineer</option>
+    <option value="Author" {{ old('profession') == 'Author' ? 'selected' : '' }}>Author</option>
+    <option value="Aviation Professional" {{ old('profession') == 'Aviation Professional' ? 'selected' : '' }}>Aviation Professional</option>
+    <option value="Banker" {{ old('profession') == 'Banker' ? 'selected' : '' }}>Banker</option>
+    <option value="Biologist" {{ old('profession') == 'Biologist' ? 'selected' : '' }}>Biologist</option>
+    <option value="Biotechnologist" {{ old('profession') == 'Biotechnologist' ? 'selected' : '' }}>Biotechnologist</option>
+    <option value="Botanist" {{ old('profession') == 'Botanist' ? 'selected' : '' }}>Botanist</option>
+    <option value="Broadcaster" {{ old('profession') == 'Broadcaster' ? 'selected' : '' }}>Broadcaster</option>
+    <option value="Businessperson" {{ old('profession') == 'Businessperson' ? 'selected' : '' }}>Businessperson</option>
+    <option value="Caterer" {{ old('profession') == 'Caterer' ? 'selected' : '' }}>Caterer</option>
+    <option value="Chemical Engineer" {{ old('profession') == 'Chemical Engineer' ? 'selected' : '' }}>Chemical Engineer</option>
+    <option value="Civil Engineer" {{ old('profession') == 'Civil Engineer' ? 'selected' : '' }}>Civil Engineer</option>
+    <option value="Civil Servant" {{ old('profession') == 'Civil Servant' ? 'selected' : '' }}>Civil Servant</option>
+    <option value="Clergy" {{ old('profession') == 'Clergy' ? 'selected' : '' }}>Clergy</option>
+    <option value="Computer / IT Professional" {{ old('profession') == 'Computer / IT Professional' ? 'selected' : '' }}>Computer / IT Professional</option>
+    <option value="Construction Professional" {{ old('profession') == 'Construction Professional' ? 'selected' : '' }}>Construction Professional</option>
+    <option value="Consultant" {{ old('profession') == 'Consultant' ? 'selected' : '' }}>Consultant</option>
+    <option value="Craftsperson" {{ old('profession') == 'Craftsperson' ? 'selected' : '' }}>Craftsperson</option>
+    <option value="Diplomat" {{ old('profession') == 'Diplomat' ? 'selected' : '' }}>Diplomat</option>
+    <option value="Economist" {{ old('profession') == 'Economist' ? 'selected' : '' }}>Economist</option>
+    <option value="Educationist" {{ old('profession') == 'Educationist' ? 'selected' : '' }}>Educationist</option>
+    <option value="Electrical Engineer" {{ old('profession') == 'Electrical Engineer' ? 'selected' : '' }}>Electrical Engineer</option>
+    <option value="Entertainer" {{ old('profession') == 'Entertainer' ? 'selected' : '' }}>Entertainer</option>
+    <option value="Entrepreneur" {{ old('profession') == 'Entrepreneur' ? 'selected' : '' }}>Entrepreneur</option>
+    <option value="Environmentalist" {{ old('profession') == 'Environmentalist' ? 'selected' : '' }}>Environmentalist</option>
+    <option value="Evangelist" {{ old('profession') == 'Evangelist' ? 'selected' : '' }}>Evangelist</option>
+    <option value="Farmer" {{ old('profession') == 'Farmer' ? 'selected' : '' }}>Farmer</option>
+    <option value="Fashion Stylist" {{ old('profession') == 'Fashion Stylist' ? 'selected' : '' }}>Fashion Stylist</option>
+    <option value="Fitness Instructor" {{ old('profession') == 'Fitness Instructor' ? 'selected' : '' }}>Fitness Instructor</option>
+    <option value="Footballer" {{ old('profession') == 'Footballer' ? 'selected' : '' }}>Footballer</option>
+    <option value="Freelancer" {{ old('profession') == 'Freelancer' ? 'selected' : '' }}>Freelancer</option>
+    <option value="Geologist" {{ old('profession') == 'Geologist' ? 'selected' : '' }}>Geologist</option>
+    <option value="Genetic Engineer" {{ old('profession') == 'Genetic Engineer' ? 'selected' : '' }}>Genetic Engineer</option>
+    <option value="Historian" {{ old('profession') == 'Historian' ? 'selected' : '' }}>Historian</option>
+    <option value="Horticulturist" {{ old('profession') == 'Horticulturist' ? 'selected' : '' }}>Horticulturist</option>
+    <option value="Industrialist" {{ old('profession') == 'Industrialist' ? 'selected' : '' }}>Industrialist</option>
+    <option value="Investor" {{ old('profession') == 'Investor' ? 'selected' : '' }}>Investor</option>
+    <option value="Journalist" {{ old('profession') == 'Journalist' ? 'selected' : '' }}>Journalist</option>
+    <option value="Judge" {{ old('profession') == 'Judge' ? 'selected' : '' }}>Judge</option>
+    <option value="Lawyer" {{ old('profession') == 'Lawyer' ? 'selected' : '' }}>Lawyer</option>
+    <option value="Leadership Trainer" {{ old('profession') == 'Leadership Trainer' ? 'selected' : '' }}>Leadership Trainer</option>
+    <option value="Lecturer" {{ old('profession') == 'Lecturer' ? 'selected' : '' }}>Lecturer</option>
+    <option value="Legal Adviser" {{ old('profession') == 'Legal Adviser' ? 'selected' : '' }}>Legal Adviser</option>
+    <option value="Legislator" {{ old('profession') == 'Legislator' ? 'selected' : '' }}>Legislator</option>
+    <option value="Librarian" {{ old('profession') == 'Librarian' ? 'selected' : '' }}>Librarian</option>
+    <option value="Management Consultant" {{ old('profession') == 'Management Consultant' ? 'selected' : '' }}>Management Consultant</option>
+    <option value="Mathematician" {{ old('profession') == 'Mathematician' ? 'selected' : '' }}>Mathematician</option>
+    <option value="Media Personality" {{ old('profession') == 'Media Personality' ? 'selected' : '' }}>Media Personality</option>
+    <option value="Mediator" {{ old('profession') == 'Mediator' ? 'selected' : '' }}>Mediator</option>
+    <option value="Medical Doctor" {{ old('profession') == 'Medical Doctor' ? 'selected' : '' }}>Medical Doctor</option>
+    <option value="Medical Laboratory Scientist" {{ old('profession') == 'Medical Laboratory Scientist' ? 'selected' : '' }}>Medical Laboratory Scientist</option>
+    <option value="Medical Consultant" {{ old('profession') == 'Medical Consultant' ? 'selected' : '' }}>Medical Consultant</option>
+    <option value="Microbiologist" {{ old('profession') == 'Microbiologist' ? 'selected' : '' }}>Microbiologist</option>
+    <option value="Military Personnel" {{ old('profession') == 'Military Personnel' ? 'selected' : '' }}>Military Personnel</option>
+    <option value="Musician / Music Promoter" {{ old('profession') == 'Musician / Music Promoter' ? 'selected' : '' }}>Musician / Music Promoter</option>
+    <option value="Naval Officer" {{ old('profession') == 'Naval Officer' ? 'selected' : '' }}>Naval Officer</option>
+    <option value="Novelist" {{ old('profession') == 'Novelist' ? 'selected' : '' }}>Novelist</option>
+    <option value="Nurse" {{ old('profession') == 'Nurse' ? 'selected' : '' }}>Nurse</option>
+    <option value="Oil and Gas Professional" {{ old('profession') == 'Oil and Gas Professional' ? 'selected' : '' }}>Oil and Gas Professional</option>
+    <option value="Painter" {{ old('profession') == 'Painter' ? 'selected' : '' }}>Painter</option>
+    <option value="Pastor" {{ old('profession') == 'Pastor' ? 'selected' : '' }}>Pastor</option>
+    <option value="Poet" {{ old('profession') == 'Poet' ? 'selected' : '' }}>Poet</option>
+    <option value="Petroleum Engineer" {{ old('profession') == 'Petroleum Engineer' ? 'selected' : '' }}>Petroleum Engineer</option>
+    <option value="Pharmacist" {{ old('profession') == 'Pharmacist' ? 'selected' : '' }}>Pharmacist</option>
+    <option value="Philanthropist" {{ old('profession') == 'Philanthropist' ? 'selected' : '' }}>Philanthropist</option>
+    <option value="Physiotherapist" {{ old('profession') == 'Physiotherapist' ? 'selected' : '' }}>Physiotherapist</option>
+    <option value="Photographer" {{ old('profession') == 'Photographer' ? 'selected' : '' }}>Photographer</option>
+    <option value="Pilot" {{ old('profession') == 'Pilot' ? 'selected' : '' }}>Pilot</option>
+    <option value="Police Officer" {{ old('profession') == 'Police Officer' ? 'selected' : '' }}>Police Officer</option>
+    <option value="Political Scientist" {{ old('profession') == 'Political Scientist' ? 'selected' : '' }}>Political Scientist</option>
+    <option value="Politician" {{ old('profession') == 'Politician' ? 'selected' : '' }}>Politician</option>
+    <option value="Portfolio Manager" {{ old('profession') == 'Portfolio Manager' ? 'selected' : '' }}>Portfolio Manager</option>
+    <option value="Professor" {{ old('profession') == 'Professor' ? 'selected' : '' }}>Professor</option>
+    <option value="Public Servant" {{ old('profession') == 'Public Servant' ? 'selected' : '' }}>Public Servant</option>
+    <option value="Real Estate Manager" {{ old('profession') == 'Real Estate Manager' ? 'selected' : '' }}>Real Estate Manager</option>
+    <option value="Retiree" {{ old('profession') == 'Retiree' ? 'selected' : '' }}>Retiree</option>
+    <option value="Royalty" {{ old('profession') == 'Royalty' ? 'selected' : '' }}>Royalty</option>
+    <option value="Scholar" {{ old('profession') == 'Scholar' ? 'selected' : '' }}>Scholar</option>
+    <option value="Scientist" {{ old('profession') == 'Scientist' ? 'selected' : '' }}>Scientist</option>
+    <option value="Security Expert" {{ old('profession') == 'Security Expert' ? 'selected' : '' }}>Security Expert</option>
+    <option value="Singer" {{ old('profession') == 'Singer' ? 'selected' : '' }}>Singer</option>
+    <option value="Sociologist" {{ old('profession') == 'Sociologist' ? 'selected' : '' }}>Sociologist</option>
+    <option value="Soldier" {{ old('profession') == 'Soldier' ? 'selected' : '' }}>Soldier</option>
+    <option value="Songwriter" {{ old('profession') == 'Songwriter' ? 'selected' : '' }}>Songwriter</option>
+    <option value="Sports Professional" {{ old('profession') == 'Sports Professional' ? 'selected' : '' }}>Sports Professional</option>
+    <option value="Stock Broker" {{ old('profession') == 'Stock Broker' ? 'selected' : '' }}>Stock Broker</option>
+    <option value="Stylist" {{ old('profession') == 'Stylist' ? 'selected' : '' }}>Stylist</option>
+    <option value="Surgeon" {{ old('profession') == 'Surgeon' ? 'selected' : '' }}>Surgeon</option>
+    <option value="Teacher" {{ old('profession') == 'Teacher' ? 'selected' : '' }}>Teacher</option>
+    <option value="Technologist" {{ old('profession') == 'Technologist' ? 'selected' : '' }}>Technologist</option>
+    <option value="Trader" {{ old('profession') == 'Trader' ? 'selected' : '' }}>Trader</option>
+    <option value="Telecommunications Professional" {{ old('profession') == 'Telecommunications Professional' ? 'selected' : '' }}>Telecommunications Professional</option>
+    <option value="Tourism Professional" {{ old('profession') == 'Tourism Professional' ? 'selected' : '' }}>Tourism Professional</option>
+    <option value="Transporter" {{ old('profession') == 'Transporter' ? 'selected' : '' }}>Transporter</option>
+    <option value="Writer" {{ old('profession') == 'Writer' ? 'selected' : '' }}>Writer</option>
+    <option value="Unemployed" {{ old('profession') == 'Unemployed' ? 'selected' : '' }}>Unemployed</option>
+    <option value="Youth Advocate" {{ old('profession') == 'Youth Advocate' ? 'selected' : '' }}>Youth Advocate</option>
+    <option value="Yoga Instructor" {{ old('profession') == 'Yoga Instructor' ? 'selected' : '' }}>Yoga Instructor</option>
+    <option value="Zoologist" {{ old('profession') == 'Zoologist' ? 'selected' : '' }}>Zoologist</option>
+  </select>
+    </div>
 
       <div class="fields">
         <label>Business Category</label>
