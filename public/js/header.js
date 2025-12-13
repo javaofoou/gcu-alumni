@@ -40,6 +40,20 @@ function showHideAbout() {
     });
   }
 }
+function showHideArchive() {
+  const archive = document.getElementById("archive-box");
+  if (archive.style.display === "block") {
+    archive.style.display = "none";
+  } else {
+    archive.style.display = "block";
+
+    // Apply slide-in animation to dropdown links
+    const items = archive.querySelectorAll("li");
+    items.forEach((item, i) => {
+      item.style.animation = `slideIn 0.4s ease ${i * 0.07}s forwards`;
+    });
+  }
+}
 // ===== DONATION MODAL =====
 const donateBtn = document.getElementById('donateBtn');
 const donateModal = document.getElementById('donateModal');
