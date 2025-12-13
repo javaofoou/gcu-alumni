@@ -43,4 +43,8 @@ class gcuPages extends Controller
     {
         return view('archives');
     }
+    public function art()
+    {
+        return view('art');
+    }
 }
