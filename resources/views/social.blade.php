@@ -1,4 +1,4 @@
-x-layouts.app/>
+<x-layouts.app/>
 <style>
      :root{
   --brand:#B22222;
@@ -48,11 +48,13 @@ x-layouts.app/>
   }
 </style>
 <div class="gallery-container">
-  <h1>Art Gallery</h1>
+  <h1>Social Gallery</h1>
   <div class="grid">
     <!-- Insert images below -->
-    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1764025773/IMG-20251018-WA0051_guzdhm.jpg" alt="Art Gallery Image" />
-    </div>
+    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765470082/IMG-20251209-WA0007_li8naj.jpg" alt="Social Gallery Image" />
+    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765470082/IMG-20251028-WA0034_1_g3334a.jpg" alt="Art Gallery Image" />
+    
+  </div>
 </div>
  <x-layouts.footer/>
  <script src="{{ asset('js/header.js') }}"></script>
