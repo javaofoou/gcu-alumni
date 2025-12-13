@@ -47,4 +47,12 @@ class gcuPages extends Controller
     {
         return view('art');
     }
+    public function social()
+    {
+        return view('social');
+    }
+    public function innovation()
+    {
+        return view('innovation');
+    }
 }
