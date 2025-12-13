@@ -48,8 +48,7 @@
   }
 </style>
 <div class="gallery-container">
-  <h1>Grand Alumni Reunion Gallery</h1>
-  <p class="subtitle">A celebration of excellence, connection and shared legacy.</p>
+  <h1>Art Gallery</h1>
   <div class="grid">
     <!-- Insert images below -->
     <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1764025773/IMG-20251018-WA0051_guzdhm.jpg" alt="Art Gallery Image" />
