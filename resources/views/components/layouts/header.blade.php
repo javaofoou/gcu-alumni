@@ -141,8 +141,8 @@
       <a href="/gallery" class="ham-link"><i class="fa fa-image"></i> Gallery</a>
       <a href="/projects" class="ham-link"><i class="fa fa-building"></i> Projects</a>
       <!--<a href="/archives" class="ham-link"><i class="fa fa-box-archive"></i> Archive</a>-->
-    <a href="#" onclick="showHideAbout()" class="ham-link"><i class="fa fa-box-archive"></i>Archive ▾</a>
-      <ul class="dropdown-menu" id="about-box">
+    <a href="#" onclick="showHideArchive()" class="ham-link"><i class="fa fa-box-archive"></i>Archive ▾</a>
+      <ul class="dropdown-menu" id="archive-box">
         <li><a href="/gallery">Gallery</a></li>
         <li><a href="/art">Art Gallery</a></li>
         <li><a href="/social">Social Works</a></li>
