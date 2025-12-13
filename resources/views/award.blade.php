@@ -51,7 +51,7 @@
   <h1>Awards</h1>
   <div class="grid">
     <!-- Insert images below -->
-    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469843/IMG-20251209-WA0022_lbnu4v.jpg" alt="Award Image" />
+    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469842/IMG-20251209-WA0026_i995po.jpg" alt="Award Image" />
   </div>
 </div>
  <x-layouts.footer/>
