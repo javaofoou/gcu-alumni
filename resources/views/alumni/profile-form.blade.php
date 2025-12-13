@@ -461,7 +461,7 @@ select {
 
       <div class="fields">
         <label>Business Category</label>
-        <input type="text" name="business_category" value="{{ old('business_category') }}">
+        <input type="text" placeholder="Goods or Services" name="business_category" value="{{ old('business_category') }}">
       </div>
 
       <div class="fields">
