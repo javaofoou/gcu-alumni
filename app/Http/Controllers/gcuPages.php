@@ -55,4 +55,8 @@ class gcuPages extends Controller
     {
         return view('innovation');
     }
+    public function award()
+    {
+        return view('award');
+}
 }
