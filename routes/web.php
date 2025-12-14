@@ -14,12 +14,9 @@ use App\Http\Controllers\AlumniController;
 
 use App\Http\Controllers\BusinessAdvertController;
 use App\Http\Controllers\reviewsController;
+use App\Http\Controllers\HomeController;
 
-
-Route::get('/', function(){
-    return view('alumni-directory');
-});
-
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/branch', [gcuPages::class, 'branch'])->name('branch');
 Route::get('/values', [gcuPages::class, 'values'])->name('values');
