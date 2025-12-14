@@ -181,6 +181,7 @@
                 <p><i class="fa-solid fa-id-card"></i> <strong>Full Name:</strong> {{ $alumni['name'] }}</p>
                 <p><i class="fa-solid fa-signature"></i> <strong>Nickname:</strong> {{ $alumni['nickname'] ?? 'N/A' }}</p>
                 <p><i class="fa-solid fa-users-gear"></i> <strong>Past Class Captain:</strong> {{ $alumni['past_class_captain'] ?? 'N/A' }}</p>
+                <p><i class="fa-solid fa-users-gear"></i> <strong>Current Class Captain:</strong> {{ $alumni['current_class_captain'] ?? 'N/A' }}</p>
                 <p><i class="fa-solid fa-school"></i> <strong>Old Principal:</strong> {{ $alumni['old_principal'] ?? 'N/A' }}</p>
             </div>
         </div>
@@ -207,6 +208,8 @@
                 <p><i class="fa-solid fa-industry"></i> <strong>Current Trade:</strong> {{ $alumni['trade'] ?? 'N/A' }}</p>
                 <p><i class="fa-solid fa-list"></i> <strong>Business Category:</strong> {{ $alumni['business_category'] ?? 'N/A' }}</p>
                 <p><i class="fa-solid fa-lightbulb"></i> <strong>Business Interest:</strong> {{ $alumni['business_interest'] ?? 'N/A' }}</p>
+                <p><i class="fa-solid fa-industry"></i> <strong>Branch Leader:</strong> {{ $alumni['branch_leader'] ?? 'N/A' }}</p>
+             
             </div>
         </div>
 
