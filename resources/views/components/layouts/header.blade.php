@@ -135,6 +135,7 @@
          <li><a href="/fedt">FEDT</a></li>
         <li><a href="/nec">NEC</a></li>
         <li><a href="/alumni/classes">Class</a></li>
+        <li><a href="/reviews">Customer's Review</a></li>  
       </ul> 
       <a href="/hall-of-fame" class="ham-link">Hall of Fame</a>
       <a href="/events" class="ham-link">Events</a>
