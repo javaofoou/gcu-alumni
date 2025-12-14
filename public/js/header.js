@@ -53,6 +53,10 @@ function showHideArchive() {
       item.style.animation = `slideIn 0.4s ease ${i * 0.07}s forwards`;
     });
   }
+    if(window.innerWidth >= 600){
+       archive.style.position = "relative";
+       archive.style.left="80%";
+    }
 }
 // ===== DONATION MODAL =====
 const donateBtn = document.getElementById('donateBtn');
