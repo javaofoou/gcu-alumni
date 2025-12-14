@@ -54,7 +54,7 @@ function showHideArchive() {
     });
   }
     if(window.innerWidth >= 600){
-       archive.style.marginLeft="500px";
+       archive.style.marginLeft="570px";
     }
 }
 // ===== DONATION MODAL =====
