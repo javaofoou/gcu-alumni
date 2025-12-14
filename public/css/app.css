@@ -2417,6 +2417,95 @@ swiper-slide::after {
   }
 }
 
+/* ===============================
+   BUSINESS ADVERTS – HOMEPAGE
+================================ */
+
+.business-adverts {
+  padding: 50px 20px;
+  background: #f7f7f7;
+}
+
+.business-adverts h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #111;
+}
+
+.adverts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 22px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.advert-card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.advert-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0,0,0,0.12);
+}
+
+.advert-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.advert-content {
+  padding: 16px;
+}
+
+.advert-content h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.advert-content p {
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.call-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #b22222;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.call-btn:hover {
+  background: #000;
+}
+
+/* Mobile tweaks */
+@media (max-width: 480px) {
+  .business-adverts h2 {
+    font-size: 1.35rem;
+  }
+
+  .advert-card img {
+    height: 160px;
+  }
+}
+
 
 
 
