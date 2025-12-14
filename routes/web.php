@@ -12,7 +12,7 @@ use App\Http\Controllers\LoginController;
 
 use App\Http\Controllers\AlumniController;
 
-
+use App\Http\Controllers\BusinessAdvertController;
 use App\Http\Controllers\reviewsController;
 
 
@@ -88,3 +88,11 @@ Route::post('/reviews', [reviewsController::class, 'storereview']);
 Route::get('/alumni/classes', [AlumniController::class, 'classes'])->name('alumni.classes');
 Route::get('/alumni/class/{entry}', [AlumniController::class, 'viewClass'])->name('alumni.view.class');
 Route::get('/alumni/profile/{id}', [AlumniController::class, 'profile'])->name('alumni.profile');
+
+
+
+Route::get('/adverts/create', [BusinessAdvertController::class, 'create'])
+    ->name('adverts.create');
+
+Route::post('/adverts/store', [BusinessAdvertController::class, 'store'])
+    ->name('adverts.store');
