@@ -13,7 +13,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\AlumniController;
 
 
-use App\Http\Controllers\ReviewsController;
+use App\Http\Controllers\reviewsController;
 
 
 Route::get('/', function(){
@@ -82,8 +82,8 @@ Route::get('/profile{id}/edit', [AlumniProfileController::class, 'edit'])->name(
 Route::post('/profile/update', [AlumniProfileController::class, 'update'])->name('profile.update');
 
 
-Route::get('/reviews', [ReviewsController::class, 'getreview']);
-Route::post('/reviews', [ReviewsController::class, 'storereview']);
+Route::get('/reviews', [reviewsController::class, 'getreview']);
+Route::post('/reviews', [reviewsController::class, 'storereview']);
 
 Route::get('/alumni/classes', [AlumniController::class, 'classes'])->name('alumni.classes');
 Route::get('/alumni/class/{entry}', [AlumniController::class, 'viewClass'])->name('alumni.view.class');
