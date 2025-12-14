@@ -2457,7 +2457,7 @@ swiper-slide::after {
 
 .advert-card img {
   width: 100%;
-  height: 230px;
+  height:340px;
   object-fit: cover;
 }
 
@@ -2502,7 +2502,7 @@ swiper-slide::after {
   }
 
   .advert-card img {
-    height: 250px;
+    height: 360px;
   }
 }
 
