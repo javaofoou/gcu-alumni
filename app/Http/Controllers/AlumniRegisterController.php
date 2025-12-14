@@ -19,6 +19,7 @@ class AlumniRegisterController extends Controller
             'nickname'           => 'nullable|string|max:255',
             'entry'              => 'required|string|max:10',
             'past_class_captain' => 'nullable|string|max:255',
+            'current_class_captain' => 'nullable|string|max:255',         
             'house'              => 'required|string|max:255',
             'old_principal'      => 'nullable|string|max:255',
             'residence'          => 'nullable|string|max:255',
@@ -27,6 +28,7 @@ class AlumniRegisterController extends Controller
             'profession'         => 'nullable|string|max:255',
             'business_category'  => 'nullable|string|max:255',
             'business_interest'  => 'nullable|string|max:255',
+            'branch_leader' => 'nullable|string|max:255',
             'trade'              => 'nullable|string|max:255',
             'contact'            => 'nullable|string|max:255',
             'email'              => 'required|email|max:255',
@@ -77,10 +79,12 @@ class AlumniRegisterController extends Controller
                 'trade' => $req->trade,
                 'business_category' => $req->business_category,
                 'business_interest' => $req->business_interest,
+                'branch_leader' => $req->branch_leader,
                 'contact' => $req->contact,
                 'email' => $req->email,
                 'old_principal' => $req->old_principal,
                 'past_class_captain' => $req->past_class_captain,
+                'current_class_captain' => $req->current_class_captain,
                 'nin' => $req->nin,
                 'image' => $imageUrl
             ]
