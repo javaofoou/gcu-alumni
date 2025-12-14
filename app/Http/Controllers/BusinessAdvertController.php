@@ -16,7 +16,7 @@ class BusinessAdvertController extends Controller
             return redirect()->route('login')->with('error', 'Please login first');
         }
 
-        return view('adverts.create');
+        return view('advert-create');
     }
 
     public function store(Request $request)
