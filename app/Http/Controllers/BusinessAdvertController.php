@@ -38,7 +38,7 @@ class BusinessAdvertController extends Controller
            // 2) Upload to Cloudinary (optional)
     $imageUrl = null;
   
-    if ($req->hasFile('image')) {
+    if ($request->hasFile('image')) {
         try {
             // Initialize Cloudinary manually
             $cloudinary = new Cloudinary([
@@ -51,7 +51,7 @@ class BusinessAdvertController extends Controller
 
             // Upload to Cloudinary
             $uploadedFile = $cloudinary->uploadApi()->upload(
-                $req->file('image')->getRealPath(),
+                $request->file('image')->getRealPath(),
                 ["folder" => "business-adverts"]
             );
 
