@@ -91,5 +91,4 @@ Route::get('/alumni/profile/{id}', [AlumniController::class, 'profile'])->name('
 Route::get('/adverts/create', [BusinessAdvertController::class, 'create'])
     ->name('adverts.create');
 
-Route::post('/adverts/store', [BusinessAdvertController::class, 'store'])
-    ->name('adverts.store');
+Route::post('/adverts/store', [BusinessAdvertController::class, 'store'])->name('adverts.store');
