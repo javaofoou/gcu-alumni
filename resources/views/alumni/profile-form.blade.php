@@ -419,5 +419,6 @@ select {
 
     <button type="submit">Submit</button>
   </form>
+  <x-layouts.footer/>
   <script src="{{ asset('js/header.js') }}"></script>
 </div>
