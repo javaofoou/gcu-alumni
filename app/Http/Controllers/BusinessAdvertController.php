@@ -34,11 +34,34 @@ class BusinessAdvertController extends Controller
             'description' => 'nullable|string|max:500',
         ]);
 
-        // Upload image to Cloudinary
-        $imageUrl = Cloudinary::upload(
-            $request->file('image')->getRealPath(),
-            ['folder' => 'business-adverts']
-        )->getSecurePath();
+        
+           // 2) Upload to Cloudinary (optional)
+    $imageUrl = null;
+  
+    if ($req->hasFile('image')) {
+        try {
+            // Initialize Cloudinary manually
+            $cloudinary = new Cloudinary([
+                'cloud' => [
+                    'cloud_name' => env('CLOUDINARY_CLOUD_NAME'),
+                    'api_key'    => env('CLOUDINARY_API_KEY'),
+                    'api_secret' => env('CLOUDINARY_API_SECRET'),
+                ]
+            ]);
+
+            // Upload to Cloudinary
+            $uploadedFile = $cloudinary->uploadApi()->upload(
+                $req->file('image')->getRealPath(),
+                ["folder" => "business-adverts"]
+            );
+
+            // Get secure URL
+            $imageUrl = $uploadedFile["secure_url"] ?? null;
+
+        } catch (\Exception $e) {
+            return back()->with('error', 'Cloudinary upload failed: ' . $e->getMessage());
+        }
+    }  
 
         // Insert into Supabase
         $response = Http::withHeaders([
