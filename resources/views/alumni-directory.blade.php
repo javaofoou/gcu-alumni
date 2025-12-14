@@ -141,6 +141,18 @@
 
   </div>
 </section>
+    @if(!empty($adverts))
+  <section class="business-adverts">
+    @foreach($adverts as $advert)
+      <div class="advert-card">
+        <img src="{{ $advert['image'] }}" alt="{{ $advert['business_name'] }}">
+        <h4>{{ $advert['business_name'] }}</h4>
+        <p>{{ $advert['description'] }}</p>
+        <a href="tel:{{ $advert['phone'] }}">Call {{ $advert['phone'] }}</a>
+      </div>
+    @endforeach
+  </section>
+@endif
   <!--Key Moment Block-->
   <section class="highlight-section">
   <h2 class="highlight-title">Highlights & Key Moments</h2>
