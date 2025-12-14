@@ -52,6 +52,15 @@
   <div class="grid">
     <!-- Insert images below -->
     <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469842/IMG-20251209-WA0026_i995po.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677939/Screenshot_20251213_175706_Canva_ohtwj3.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677937/Screenshot_20251213_175623_Canva_zjjxbn.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677938/Screenshot_20251213_175647_Canva_oqrrz4.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677937/Screenshot_20251213_174145_WPS_Office_wrqcrk.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677938/Screenshot_20251213_175700_Canva_oufjqq.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677937/Screenshot_20251213_174029_WPS_Office_hx4fgt.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677937/Screenshot_20251213_175631_Canva_qczjen.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677937/Screenshot_20251213_175631_Canva_qczjen.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677942/Screenshot_20251213_175713_Canva_pojqug.jpg" alt="Award Image" />
   </div>
 </div>
  <x-layouts.footer/>
