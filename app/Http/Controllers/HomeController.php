@@ -15,7 +15,7 @@ class HomeController extends Controller
         $adverts = Http::withHeaders([
             'apikey' => $key,
             'Authorization' => 'Bearer ' . $key,
-        ])->get($url . '/rest/v1/business_adverts?status=eq.approved&order=created_at.desc')
+        ])->get($url . '/rest/v1/business_adverts?order=created_at.desc')
           ->json();
 
         return view('alumni-directory', compact('adverts'));
