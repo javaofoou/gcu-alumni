@@ -143,6 +143,7 @@
 </section>
     @if(!empty($adverts))
   <section class="business-adverts">
+      <h2>Business Updates & Adverts</h2>
     @foreach($adverts as $advert)
       <div class="advert-card">
         <img src="{{ $advert['image'] }}" alt="{{ $advert['business_name'] }}">
