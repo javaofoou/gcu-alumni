@@ -224,7 +224,10 @@ select {
         <label>Past Class Captain's Name</label>
         <input type="text" name="past_class_captain" value="{{ old('past_class_captain') }}">
       </div>
-
+        <div class="fields">
+        <label>Current Class Captain's Name</label>
+        <input type="text" name="current_class_captain" value="{{ old('current_class_captain') }}">
+      </div>
       <div class="fields">
         <label>House *</label>
         <select name="house" required>
@@ -390,7 +393,10 @@ select {
         <label>Business Interest</label>
         <input type="text" name="business_interest" value="{{ old('business_interest') }}">
       </div>
-
+      <div class="fields">
+        <label>Branch Leader's  Name</label>
+        <input type="text" name="branch_leader" value="{{ old('branch_leader') }}">
+      </div>
       <div class="fields">
         <label>Current Trade</label>
         <input type="text" name="trade" value="{{ old('trade') }}">
