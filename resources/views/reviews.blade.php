@@ -79,6 +79,8 @@
     padding: 20px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.07);
     border-left: 5px solid #d32f2f;
+    margin-bottom: 15px;
+ tramargin-top:15px;
     transition: transform .2s ease, box-shadow .3s ease;
 }
 
