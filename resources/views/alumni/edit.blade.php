@@ -95,6 +95,10 @@ img.profile-preview {
     <label>Trade / Work</label>
     <input type="text" name="trade" value="{{ $alumni['trade'] }}">
 
+    
+    <label>Website URL</label>
+    <input type="text" name="website_url" value="{{ $alumni['website_url'] }}">
+    
     <label>Contact Phone / WhatsApp</label>
     <input type="text" name="contact" value="{{ $alumni['contact'] }}">
 
