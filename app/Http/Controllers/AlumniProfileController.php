@@ -116,6 +116,7 @@ public function update(Request $request)
         'residence' => $request->residence,
         'business_category' => $request->business_category,
         'business_interest' => $request->business_interest,
+        'website_url' => $request->website_url,
         'trade' => $request->trade,
         'contact' => $request->contact,
         'image' => $imageUrl,
