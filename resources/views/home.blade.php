@@ -538,7 +538,7 @@
     <span><i class="fas fa-trophy"></i> Excellence in Sports & Mentorship</span>
   </div>
   <div class="hof-img">
-    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761428210/IMG-20251023-WA0003_gamoaa.jpg" alt="Ida Peterside" />
+    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251211-WA0033_sktm4d.jpg" alt="Ida Peterside" />
   </div>
 </div>
 
