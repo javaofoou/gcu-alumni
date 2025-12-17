@@ -401,7 +401,10 @@ select {
         <label>Current Trade</label>
         <input type="text" name="trade" value="{{ old('trade') }}">
       </div>
-
+       <div class="fields">
+        <label>Website URL</label>
+        <input type="text" name="website_url" value="{{ old('website_url') }}">
+      </div>
       <div class="fields">
         <label>Contact</label>
         <input type="text" name="contact" value="{{ old('contact') }}">
