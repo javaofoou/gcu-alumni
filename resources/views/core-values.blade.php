@@ -154,7 +154,18 @@
         <p>We cultivate vision, initiative, and responsibility — inspiring others and shaping a future built on wisdom and discipline.</p>
       </div>
     </div>
-
+    <!-- VISION BOX -->
+    <div class="mission-box">
+      <h2><i class="fas fa-quote-left"></i>Our Vission <i class="fas fa-quote-right"></i></h2>
+      <p>To sustain an enduring legacy of excellence, unity and support, fostering lifelong connections among Alumni and empowering future Umuahian leaders.</p>
+        <p>We aim to create a strong, inclusive community that promotes personal growth, professional success, and continuous engagement.</p>
+    </div>
+    <!-- MISSION BOX -->
+    <div class="mission-box">
+      <h2><i class="fas fa-quote-left"></i>Our Mission <i class="fas fa-quote-right"></i></h2>
+      <p>To maintain a lifelong connection between the alumni community providing a platform for networking, professional development,<br> and pertinent community service
+          especially towards our Alma mater community that defines us as true Umuahians.</p>
+    </div>
    <!-- AIMS & OBJECTIVE BOX -->
     <div class="mission-box">
       <h2><i class="fas fa-quote-left"></i> Aims and Objectives<i class="fas fa-quote-right"></i></h2>
@@ -180,18 +191,6 @@
             as well as well-wishers towards the development of our great Alma mater in Government College Umuahia, and in effect its students.
 </p>
         <p>10. The list is inexaustive.</p>
-    </div>
-    <!-- MISSION BOX -->
-    <div class="mission-box">
-      <h2><i class="fas fa-quote-left"></i> Our Mission <i class="fas fa-quote-right"></i></h2>
-      <p>To maintain a lifelong connection between the alumni community providing a platform for networking, professional development,<br> and pertinent community service
-          especially towards our Alma mater community that defines us as true Umuahians.</p>
-    </div>
-     <!-- VISION BOX -->
-    <div class="mission-box">
-      <h2><i class="fas fa-quote-left"></i> Our Vission <i class="fas fa-quote-right"></i></h2>
-      <p>To sustain an enduring legacy of excellence, unity and support, fostering lifelong connections among Alumni and empowering future Umuahian leaders.</p>
-        <p>We aim to create a strong, inclusive community that promotes personal growth, professional success, and continuous engagement.</p>
     </div>
   </section>
    <x-layouts.footer/>
