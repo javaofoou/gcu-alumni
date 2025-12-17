@@ -200,7 +200,9 @@
     <p>A distinguished body of Old Boys entrusted with guiding and sustaining the legacy of Government College Umuahia.</p>
 
     <div class="leaders-grid">
-
+     <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251215-WA0002_gdy0ot.jpg">
+      </div>
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761128929/president_i8dcma.jpg" alt="President">
         <h4>Dr. Chinedum Ahaiwe</h4>
@@ -227,11 +229,17 @@
       </div>
 
       <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761480685/IMG-20251023-WA0019_4_mdfdhg.jpg" alt="Secretary">
-        <h4>Barr. Egbuta Nkem</h4>
-        <p>General Secretary (Class of ’83) — Abuja</p>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946692/IMG-20251215-WA0006_o3ivtn.jpg" alt="Secretary">
+        <h4>Chijioke Ibem-</h4>
+        <p>National Publicity Secretary</p>
       </div>
 
+        <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946692/IMG-20251215-WA0006_o3ivtn.jpg" alt="Secretary">
+        <h4>Barr. Nkem Egbuta</h4>
+        <p>National General Secretary.</p>
+      </div>
+       
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761512637/IMG-20251026-WA0036_be0cwc.jpg" alt="Treasurer">
         <h4>Wisdom Ikota</h4>
@@ -239,11 +247,13 @@
       </div>
 
       <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761512637/IMG-20251026-WA0049_sexwpb.jpg" alt="Welfare Officer">
-        <h4>Onwuchuruba</h4>
-        <p>Welfare Officer (Class of ’74) — Owerri</p>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946692/IMG-20251215-WA0020_gt8elt.jpg" alt="Welfare Officer">
+        <h4>Nkemakolam Nnata</h4>
+        <p>Welfare Officer</p>
       </div>
 
+
+            
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761513594/IMG-20251025-WA0031_1_rhwzan.jpg" alt="Legal Adviser">
         <h4>Chief Uche C. Ihediwa, SAN</h4>
@@ -263,11 +273,16 @@
       </div>
 
       <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761628333/IMG-20251027-WA0017_aaawsf.jpg" alt="Legal Adviser">
-        <h4>Barr. Ike Ekeneme</h4>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251216-WA0000_nkbsyc.jpg" alt="Legal Adviser">
+        <h4>Barr. Godwin Akobueze</h4>
         <p>Legal Adviser</p>
       </div>
-
+      <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251216-WA0006_j8wp4w.jpg" alt="Legal Adviser">
+        <h4>Onyia F.C.</h4>
+        <p>Assistant Secretary General</p>
+      </div>
+            
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761512637/IMG-20251026-WA0052_e8z4ia.jpg" alt="UK Chapter">
         <h4>Ebizie Chijioke</h4>
