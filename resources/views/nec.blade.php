@@ -210,10 +210,8 @@
       </div>
 
         <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761578384/IMG-20251027-WA0025_1_smv0pb.jpg" alt="Public Secretary">
-        <h4>Igba Ndubuisi</h4>
-        <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251215-WA0004_evzz5f.jpg">
+        <h4>Igba Ndubuisi</h4>
         <p>Financial Secretary</p>
         </div>
       <div class="leader-card">
