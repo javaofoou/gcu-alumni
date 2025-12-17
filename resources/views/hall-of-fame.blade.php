@@ -71,7 +71,7 @@
 </div> 
 <div class="hof-card">
   <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765245103/WhatsApp_Image_2025-12-01_at_08.21.01_287d25d4_d1pk8p.jpg">
-  <h3>Williams Orioha aka 2 Shots</h3>
+  <h3>Williams Orioha aka 2 Shotz</h3>
   <p>Nigerian Music Artiste, Photographer and Film Maker.</p>
 </div> 
 <div class="hof-card" onclick="openModal(4)">
