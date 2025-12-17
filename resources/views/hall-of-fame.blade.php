@@ -161,7 +161,7 @@
 
 <div class="hof-card" onclick="openModal(18)">
   <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801312/IMG-20251028-WA0022_acl8vi.jpg" alt="Dr Josiah Onyebuchi Johnson">
-  <h3>Dr. Josiah Onyebuchi Johnson (J.O.J. Okezie)</h3>
+  <h3>Dr. Josiah Onyebuchi Johnson (J.O.J) Okezie</h3>
   <p>Nigeria’s First Minister of Health</p>
 </div>
 
