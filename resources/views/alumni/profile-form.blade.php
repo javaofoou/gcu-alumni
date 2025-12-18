@@ -201,12 +201,12 @@ select {
 
     <div class="grid">
       <div class="fields">
-        <label>Full Name *</label>
-        <input type="text" name="name" value="{{ old('name') }}" required>
+        <label>Full Name</label>
+        <input type="text" placeholder="Surname,First Name and Others" name="name" value="{{ old('name') }}" required>
       </div>
 
       <div class="fields">
-        <label>Nick Name</label>
+        <label>Nick Name(Optional)</label>
         <input type="text" name="nickname" value="{{ old('nickname') }}">
       </div>
 
@@ -402,7 +402,7 @@ select {
         <input type="text" name="trade" value="{{ old('trade') }}">
       </div>
        <div class="fields">
-        <label>Website URL</label>
+        <label>Website URL (Optional)</label>
         <input type="text" name="website_url" value="{{ old('website_url') }}">
       </div>
       <div class="fields">
@@ -416,7 +416,7 @@ select {
       </div>
 
       <div class="fields">
-        <label>Your Email *</label>
+        <label>Your Email </label>
         <input type="email" name="email" value="{{ old('email') }}" required>
       </div>
 
