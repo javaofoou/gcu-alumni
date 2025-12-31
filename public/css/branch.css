@@ -1,0 +1,110 @@
+
+    /* ===== MAIN SECTION ===== */
+    .branch-section {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .branch-title {
+      text-align: center;
+      font-size: 2rem;
+      color: var(--red);
+      font-weight: 800;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 0 var(--yellow);
+    }
+
+    .branch-sub {
+      text-align: center;
+      color: #333;
+      margin-bottom: 50px;
+      font-size: 1rem;
+    }
+
+    /* ===== BRANCH CATEGORY ===== */
+    .branch-category {
+      background: var(--white);
+      border-left: 6px solid var(--red);
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .branch-category:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 18px rgba(179,0,0,0.3);
+    }
+
+    .branch-category h2 {
+      color: var(--black);
+      font-size: 1.6rem;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 2px solid var(--yellow);
+      padding-bottom: 8px;
+    }
+
+    /* ===== BRANCH LIST ===== */
+    .branch-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .branch-item {
+      background: var(--red);
+      color: var(--white);
+      padding: 14px 15px;
+      text-align: center;
+      font-weight: 600;
+      border-radius: 8px;
+      font-size: 1rem;
+      border: 2px solid var(--yellow);
+      transition: all 0.3s ease;
+    }
+
+    .branch-item:hover {
+      background: var(--yellow);
+      color: var(--black);
+      transform: scale(1.05);
+      font-weight: 700;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--black);
+      color: var(--yellow);
+      text-align: center;
+      padding: 35px 15px;
+      font-size: 0.95rem;
+      letter-spacing: 0.3px;
+      border-top: 3px solid var(--red);
+      margin-top: 50px;
+    }
+
+    /* ===== RESPONSIVE DESIGN ===== */
+    @media (max-width: 992px) {
+      header h1 { font-size: 2rem; }
+      .branch-title { font-size: 1.8rem; }
+    }
+
+    @media (max-width: 768px) {
+      header { padding: 40px 20px; }
+      header h1 { font-size: 1.8rem; }
+      .branch-category { padding: 25px; }
+      .branch-category h2 { font-size: 1.4rem; }
+      .branch-item { font-size: 0.95rem; }
+    }
+
+    @media (max-width: 480px) {
+      .branch-title { font-size: 1.5rem; }
+      .branch-item { padding: 12px 10px; font-size: 0.9rem; }
+      .branch-category { padding: 20px; }
+    }
