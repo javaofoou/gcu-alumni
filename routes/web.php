@@ -35,9 +35,6 @@ Route::get('/social', [gcuPages::class, 'social'])->name('social');
 Route::get('/innovation', [gcuPages::class, 'innovation'])->name('innovation');
 Route::get('/award', [gcuPages::class, 'award'])->name('award');
 
-
-<<<<<<< HEAD
-=======
 // routes/web.php
 Route::get('/clear-caches', function() {
     Artisan::call('config:clear');
@@ -46,7 +43,6 @@ Route::get('/clear-caches', function() {
     Artisan::call('view:clear');
     return 'Caches cleared!';
 });
->>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
 
 Route::get('/alumni/register', [AlumniRegisterController::class, 'showAlumniForm']);
 Route::post('/alumni/register', [AlumniRegisterController::class, 'storeAlumniSession'])->name('alumni.register.store');
