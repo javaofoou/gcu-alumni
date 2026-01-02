@@ -2403,8 +2403,8 @@ swiper-slide::after {
     text-align: center;
   }
   .hof-image img {
-    width: 280px;
-    height: 280px;
+    width: 100%;
+    height: 100%;
   }
   .hof-quote h3 {
     font-size: 1.4rem;
@@ -2416,93 +2416,136 @@ swiper-slide::after {
     height: 150px;
   }
 }
-
 /* ===============================
-   BUSINESS ADVERTS – HOMEPAGE
+   BUSINESS ADVERT BILLBOARD
 ================================ */
 
 .business-adverts {
-  padding: 50px 20px;
-  background: #f7f7f7;
+  padding: 70px 20px;
+  background: linear-gradient(135deg, #f8f9fb, #eceff3);
 }
 
 .business-adverts h2 {
   text-align: center;
-  margin-bottom: 35px;
-  font-size: 1.6rem;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
   font-weight: 800;
   color: #111;
 }
 
-.adverts-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 22px;
-  max-width: 1200px;
+/* Billboard container */
+.advert-billboard {
+  position: relative;
+  max-width: 1100px;
+  height: 480px;
   margin: auto;
-}
-
-.advert-card {
-  background: #fff;
-  border-radius: 14px;
+  border-radius: 22px;
   overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.18);
 }
 
-.advert-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 18px 35px rgba(0,0,0,0.12);
+/* Individual slide */
+.billboard-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
 }
 
-.advert-card img {
+.billboard-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.billboard-slide img {
   width: 100%;
-  height:340px;
+  height: 100%;
   object-fit: cover;
 }
 
-.advert-content {
-  padding: 16px;
+/* Dark overlay */
+.billboard-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.75),
+    rgba(0,0,0,0.25),
+    rgba(0,0,0,0)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+  color: #fff;
 }
 
-.advert-content h3 {
-  margin: 0 0 8px;
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: #111;
+.billboard-overlay h3 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  margin-bottom: 10px;
 }
 
-.advert-content p {
-  font-size: 0.88rem;
-  color: #555;
-  line-height: 1.5;
-  margin-bottom: 14px;
+.billboard-overlay p {
+  font-size: 1rem;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  opacity: 0.95;
 }
 
+/* Call button */
 .call-btn {
-  display: inline-block;
-  padding: 8px 14px;
+  align-self: flex-start;
   background: #b22222;
   color: #fff;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border-radius: 6px;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-weight: 700;
   text-decoration: none;
-  transition: background 0.25s ease;
+  font-size: 0.95rem;
+  transition: transform 0.25s ease, background 0.25s ease;
 }
 
 .call-btn:hover {
   background: #000;
+  transform: translateY(-2px);
 }
 
-/* Mobile tweaks */
-@media (max-width: 480px) {
-  .business-adverts h2 {
-    font-size: 1.35rem;
+/* ===============================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .advert-billboard {
+    height: 400px;
   }
 
-  .advert-card img {
-    height: 360px;
+  .billboard-overlay {
+    padding: 25px;
+  }
+
+  .billboard-overlay h3 {
+    font-size: 1.4rem;
+  }
+
+  .billboard-overlay p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .advert-billboard {
+    height: 340px;
+    border-radius: 16px;
+  }
+
+  .business-adverts h2 {
+    font-size: 1.4rem;
+  }
+
+  .billboard-overlay h3 {
+    font-size: 1.2rem;
   }
 }
 
