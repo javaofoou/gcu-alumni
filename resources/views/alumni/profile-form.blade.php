@@ -433,8 +433,4 @@ footer{
   </form>
 </div>
  <x-layouts.footer/>
-<<<<<<< HEAD
   <script src="{{ asset('js/header.js') }}"></script>
-=======
-  <script src="{{ asset('js/header.js') }}"></script>
->>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
