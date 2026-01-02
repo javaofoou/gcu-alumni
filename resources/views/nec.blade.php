@@ -162,9 +162,17 @@
       section.leadership h2 {
         font-size: 1.6rem;
       }
+      .leader-card{
+        /* width: 96%;
+        height: 380px;
+        margin: 0 auto; */
+      }
 
       .leader-card img {
-        height: 200px;
+     width : 100%; 
+     height: 100%;
+      object-fit: contain; 
+      object-position:top center; 
       }
     }
     </style>
@@ -186,6 +194,8 @@
         <p>He later became Deputy School Captain and School Captain (1974/75). Beyond Umuahia, he served as a founding contributor to the GCUOBA USA Chapter Constitution Drafting Committee, leading strategic restoration campaigns.</p>
 
         <p>A respected academic and professional, he was appointed by the Federal Government under the NUC LEADS initiative, further advancing national education development. He also served as Abuja Branch Vice Chairman, Chairman, and was elected National President in 2023.</p>
+
+        <p>During the last AGM held on the 13th of December 2025, he was re-elected and inaugurated alongside other uniquely elected Umuahians as NEC memebers with the mandate to passionately continue his passionate but humble service to the Umuahia alumni with his usual tenacity, and doggedness ascribed as of a true Umuahian.</p>
 
         <p>With a mission grounded in unity, transparency, and legacy preservation, Dr. Ahaiwe is committed to securing and restoring the soul of Government College Umuahia — protecting its boundaries and strengthening governance.</p>
 
@@ -233,7 +243,7 @@
       </div>
 
         <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946692/IMG-20251215-WA0006_o3ivtn.jpg" alt="Secretary">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767018352/IMG-20251229-WA0031_ybtycl.jpg" alt="Secretary">
         <h4>Barr. Nkem Egbuta</h4>
         <p>National General Secretary.</p>
       </div>
@@ -249,8 +259,6 @@
         <h4>Nkemakolam Nnata</h4>
         <p>Welfare Officer</p>
       </div>
-
-
             
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761513594/IMG-20251025-WA0031_1_rhwzan.jpg" alt="Legal Adviser">
@@ -276,7 +284,7 @@
         <p>Legal Adviser</p>
       </div>
       <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251216-WA0006_j8wp4w.jpg" alt="Legal Adviser">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767018334/IMG-20251229-WA0032_zdohbn.jpg" alt="Legal Adviser">
         <h4>Onyia F.C.</h4>
         <p>Assistant Secretary General</p>
       </div>
