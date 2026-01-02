@@ -52,7 +52,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'url' => env('APP_URL', 'http://localhost'),
+=======
+    'url' => env('APP_URL', 'https://gcuobaprofessionals.com'),
+>>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
 
     /*
     |--------------------------------------------------------------------------

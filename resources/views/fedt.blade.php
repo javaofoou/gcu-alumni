@@ -36,7 +36,11 @@
     .fedt-gallery img {
       width: 320px;
       height: 220px;
+<<<<<<< HEAD
       object-fit: contain;
+=======
+      object-fit: cover;
+>>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
       border-radius: 12px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
       border: 3px solid var(--white);
@@ -73,10 +77,18 @@
     }
 
     .leader-card img {
+<<<<<<< HEAD
      width : 100%;
       height: 100%;
        object-fit: contain; 
        object-position:top center; 
+=======
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+>>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
     }
 
     .leader-card h4 {
@@ -128,7 +140,11 @@
     }
        /* ===== RESPONSIVE ===== */
     @media (max-width: 768px) {
+<<<<<<< HEAD
       .leader-card img { width : 100%; height: 100%; object-fit: contain; object-position:top center; }
+=======
+      .leader-card img { height: 200px; }
+>>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
       .statement-box h3 { font-size: 1.5rem; }
     }
 

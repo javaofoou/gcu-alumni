@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <style>
    .hof-item{
      width: 350px;
@@ -6,6 +7,10 @@
 </style>
 <!-- Hero Slider -->
  <div id="head_animation">
+=======
+ <!-- Hero Slider -->
+<div id="head_animation">
+>>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
     <swiper-container
       class="mySwiper"
       pagination="true"
@@ -18,7 +23,11 @@
       <swiper-slide><img src="images/animations/upcoming_events.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761130085/IMG-20251019-WA0000_pkih9q.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801438/IMG-20251025-WA0068_1_csdspt.jpg"/></swiper-slide>
+<<<<<<< HEAD
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761863055/IMG-20251030-WA0032_fj9fon.jpg"/></swiper-slide>
+=======
+      <swiper-slide><img src="      https://res.cloudinary.com/dhxdkejh3/image/upload/v1761863055/IMG-20251030-WA0032_fj9fon.jpg"/></swiper-slide>
+>>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761128679/boardoftrustees_stnyro.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801357/IMG-20251028-WA0045_c8k5nn.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801401/IMG-20251028-WA0042_on7c27.jpg"/></swiper-slide>

@@ -82,6 +82,10 @@ class BusinessAdvertController extends Controller
             return back()->with('error', 'Advert upload failed. Try again.');
         }
 
+<<<<<<< HEAD
         return back()->with('success', 'Advert submitted Successfully.');
+=======
+        return back()->with('success', 'Advert submitted and awaiting approval.');
+>>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
     }
 }
