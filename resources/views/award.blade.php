@@ -49,9 +49,10 @@
 </style>
 <div class="gallery-container">
   <h1>Awards</h1>
-  <div class="grid">
+   <div class="grid">
     <!-- Insert images below -->
-    <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469842/IMG-20251209-WA0026_i995po.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767106078/IMG-20251225-WA0000_uuknqy.jpg" alt="Award Image" />
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469842/IMG-20251209-WA0026_i995po.jpg" alt="Award Image" />
   <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677939/Screenshot_20251213_175706_Canva_ohtwj3.jpg" alt="Award Image" />
   <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677937/Screenshot_20251213_175623_Canva_zjjxbn.jpg" alt="Award Image" />
   <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765677938/Screenshot_20251213_175647_Canva_oqrrz4.jpg" alt="Award Image" />
