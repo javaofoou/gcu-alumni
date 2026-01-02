@@ -1,5 +1,21 @@
   <x-layouts.app/>
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <style>
+    /* ===== HALL OF FAME PAGE ===== */
+    .hof-card{
+      width: 380px;
+      height: 380px;
+    }
+    .hof-card img{
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+  </style>
   <!-- HALL OF FAME GRID -->
   <section class="hof-page">
   <div class="hof-container">
