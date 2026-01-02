@@ -172,6 +172,9 @@ select {
     border-color: #e10600;
     box-shadow: 0 0 6px rgba(225,6,0,0.5);
 }
+footer{
+  margin-top: 60px;
+}
 </style>
     <link rel="stylesheet" href="{{ asset('css/header.css') }}">
  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
@@ -201,17 +204,17 @@ select {
 
     <div class="grid">
       <div class="fields">
-        <label>Full Name</label>
+        <label>Full Name <small>Required</small></label>
         <input type="text" placeholder="Surname,First Name and Others" name="name" value="{{ old('name') }}" required>
       </div>
 
       <div class="fields">
-        <label>Nick Name(Optional)</label>
+        <label>Nick Name <small>Optional</small></label>
         <input type="text" name="nickname" value="{{ old('nickname') }}">
       </div>
 
       <div class="fields">
-        <label>Class (Year of Entry) *</label>
+        <label>Class (Year of Entry) <small>Required</small></label>
         <select name="entry" required>
           <option value="">Select Year</option>
           @for($y = date('Y'); $y >= 1929; $y--)
@@ -221,15 +224,15 @@ select {
       </div>
 
       <div class="fields">
-        <label>Past Class Captain's Name</label>
+        <label>Past Class Captain's Name <small>Required</small></label>
         <input type="text" name="past_class_captain" value="{{ old('past_class_captain') }}">
       </div>
         <div class="fields">
-        <label>Current Class Captain's Name</label>
+        <label>Current Class Captain's Name <small>Required</small></label>
         <input type="text" name="current_class_captain" value="{{ old('current_class_captain') }}">
       </div>
       <div class="fields">
-        <label>House *</label>
+        <label>House <small>Required</small></label>
         <select name="house" required>
           <option value="">Select House</option>
           <option value="Cozens" {{ old('house') == 'Cozens' ? 'selected' : '' }}>Cozens</option>
@@ -247,27 +250,27 @@ select {
       </div>
 
       <div class="fields">
-        <label>Old Principal's Name</label>
+        <label>Old Principal's Name <small>Required</small></label>
         <input type="text" name="old_principal" value="{{ old('old_principal') }}">
       </div>
 
       <div class="fields">
-        <label>Current Residence</label>
+        <label>Current Residence <small>Required</small></label>
         <input type="text" name="residence" value="{{ old('residence') }}" placeholder="City / State / Country">
       </div>
 
       <div class="fields">
-        <label>Country</label>
+        <label>Country <small>Required</small></label>
         <input type="text" name="country" value="{{ old('country') }}">
       </div>
 
       <div class="fields">
-        <label>City / Location</label>
+        <label>City / Location <small>Required</small></label>
         <input type="text" name="location" value="{{ old('location') }}">
       </div>
 
 <div class="fields">
-  <label>Profession *</label>
+  <label>Profession <small>Required</small></label>
   <select name="profession" required>
     <option value="">Select Profession</option>
     <option value="Academia" {{ old('profession') == 'Academia' ? 'selected' : '' }}>Academia</option>
@@ -385,49 +388,49 @@ select {
     </div>
 
       <div class="fields">
-        <label>Business Category</label>
+        <label>Business Category <small>Required</small></label>
         <input type="text" placeholder="Goods or Services" name="business_category" value="{{ old('business_category') }}">
       </div>
 
       <div class="fields">
-        <label>Business Interest</label>
+        <label>Business Interest <small>Required</small></label>
         <input type="text" name="business_interest" value="{{ old('business_interest') }}">
       </div>
       <div class="fields">
-        <label>Branch Leader's  Name</label>
+        <label>Branch Leader's Name <small>Required</small></label>
         <input type="text" name="branch_leader" value="{{ old('branch_leader') }}">
       </div>
       <div class="fields">
-        <label>Current Trade</label>
+        <label>Current Trade <small>Required</small></label>
         <input type="text" name="trade" value="{{ old('trade') }}">
       </div>
        <div class="fields">
-        <label>Website URL (Optional)</label>
+        <label>Website URL <small>Optional</small></label>
         <input type="text" name="website_url" value="{{ old('website_url') }}">
       </div>
       <div class="fields">
-        <label>Contact</label>
+        <label>Contact <small>Required</small></label>
         <input type="text" name="contact" value="{{ old('contact') }}">
       </div>
 
       <div class="fields">
-        <label>NIN</label>
+        <label>NIN <small>Required</small></label>
         <input type="text" name="nin" value="{{ old('nin') }}">
       </div>
 
       <div class="fields">
-        <label>Your Email </label>
+        <label>Your Email <small>Required</small></label>
         <input type="email" name="email" value="{{ old('email') }}" required>
       </div>
 
       <div class="fields full">
-        <label>Passport Photo</label>
+        <label>Passport Photo <small>Required</small></label>
         <input type="file" name="image" accept="image/*">
       </div>
     </div>
 
     <button type="submit">Submit</button>
   </form>
-  <x-layouts.footer/>
-  <script src="{{ asset('js/header.js') }}"></script>
 </div>
+ <x-layouts.footer/>
+  <script src="{{ asset('js/header.js') }}"></script>
