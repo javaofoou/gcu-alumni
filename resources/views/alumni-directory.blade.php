@@ -1,7 +1,21 @@
 <x-layouts.app title="Alumni Directory">
     <livewire:alumni-search />
 </x-layouts.app>
-
+<style>
+@media screen and (min-width: 768px) {
+  .hof-img {
+     width: 380px;
+     height: 280px;
+  }
+}
+.hof-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+</style>
+ <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+ <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <!--Key Moment Block-->
   <section class="highlight-section">
   <h2 class="highlight-title">Umuahian Testimonials</h2>
@@ -141,8 +155,8 @@
 
   </div>
 </section>
-    @if(!empty($adverts))
-  <section class="business-adverts">
+    {{-- @if(!empty($adverts)) --}}
+  {{-- <section class="business-adverts">
       <h2>Business Updates & Adverts</h2>
     @foreach($adverts as $advert)
       <div class="advert-card">
@@ -152,7 +166,27 @@
         <a href="tel:{{ $advert['phone'] }}">Call {{ $advert['phone'] }}</a>
       </div>
     @endforeach
-  </section>
+  </section> --}}
+  @if(!empty($adverts))
+<section class="business-adverts">
+    <h2>Business Updates & Adverts</h2>
+
+    <div class="advert-billboard">
+        @foreach($adverts as $index => $advert)
+            <div class="billboard-slide {{ $index === 0 ? 'active' : '' }}">
+                <img src="{{ $advert['image'] }}" alt="{{ $advert['business_name'] }}">
+
+                <div class="billboard-overlay">
+                    <h3>{{ $advert['business_name'] }}</h3>
+                    <p>{{ $advert['description'] }}</p>
+                    <a href="tel:{{ $advert['phone'] }}" class="call-btn">
+                        Call {{ $advert['phone'] }}
+                    </a>
+                </div>
+            </div>
+        @endforeach
+    </div>
+</section>
 @endif
   <!--Key Moment Block-->
   <section class="highlight-section">
@@ -669,5 +703,17 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 5000); // Slide every 5 seconds
+
+document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".billboard-slide");
+    let current = 0;
+
+    setInterval(() => {
+        slides[current].classList.remove("active");
+        current = (current + 1) % slides.length;
+        slides[current].classList.add("active");
+    }, 5000); // change every 5 seconds
+});
+
 </script>
  <x-layouts.footer/>
