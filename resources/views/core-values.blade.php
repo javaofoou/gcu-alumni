@@ -156,7 +156,7 @@
     </div>
     <!-- VISION BOX -->
     <div class="mission-box">
-      <h2><i class="fas fa-quote-left"></i>Our Vission <i class="fas fa-quote-right"></i></h2>
+      <h2><i class="fas fa-quote-left"></i>Our Vision <i class="fas fa-quote-right"></i></h2>
       <p>To sustain an enduring legacy of excellence, unity and support, fostering lifelong connections among Alumni and empowering future Umuahian leaders.</p>
         <p>We aim to create a strong, inclusive community that promotes personal growth, professional success, and continuous engagement.</p>
     </div>
