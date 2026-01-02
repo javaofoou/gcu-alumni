@@ -219,7 +219,7 @@
 
     <!-- Slide 2 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761130085/IMG-20251019-WA0000_pkih9q.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761863055/IMG-20251030-WA0032_fj9fon.jpg"/>
         <div class="slide-caption">
             <h2>Celebrating Together</h2>
             <p>Our alumni moments captured with passion and joy.</p>
@@ -237,7 +237,7 @@
 
     <!-- Slide 4 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761863055/IMG-20251030-WA0032_fj9fon.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767208189/IMG-20251025-WA0056_2_xom2js.jpg"/>
         <div class="slide-caption">
             <h2>Networking Made Easy</h2>
             <p>Connect with alumni across fields and locations.</p>
@@ -309,7 +309,7 @@
 
     <!-- Slide 12 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761455737/Slide28_e1gpqb.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251025-WA0033_1_dgd0mm.jpg"/>
         <div class="slide-caption">
             <h2>Milestone Moments</h2>
             <p>Capturing unforgettable memories of the alumni journey.</p>
@@ -336,7 +336,7 @@
 
     <!-- Slide 15 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469824/IMG-20251025-WA0053_1_eubism.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767208207/IMG-20251217-WA0026_1_rsb8td.jpg"/>
         <div class="slide-caption">
             <h2>Connecting Generations</h2>
             <p>Linking past, present, and future Umuahians in harmony.</p>
@@ -354,7 +354,7 @@
 
     <!-- Slide 17 -->
     <swiper-slide>
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469799/IMG-20251025-WA0033_1_dgd0mm.jpg"/>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765469824/IMG-20251025-WA0053_1_eubism.jpg"/>
         <div class="slide-caption">
             <h2>Legacy & Inspiration</h2>
             <p>Continuing the tradition of excellence for future alumni.</p>
