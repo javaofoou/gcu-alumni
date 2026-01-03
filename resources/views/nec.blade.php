@@ -195,7 +195,7 @@
 
         <p>A respected academic and professional, he was appointed by the Federal Government under the NUC LEADS initiative, further advancing national education development. He also served as Abuja Branch Vice Chairman, Chairman, and was elected National President in 2023.</p>
 
-        <p>During the last AGM held on the 13th of December 2025, he was re-elected and inaugurated alongside other uniquely elected Umuahians as NEC memebers with the mandate to passionately continue his passionate but humble service to the Umuahia alumni with his usual tenacity, and doggedness ascribed as of a true Umuahian.</p>
+        <p>During the last AGM held on the 13th of December 2025, he was re-elected and inaugurated alongside other uniquely elected Umuahians as NEC members with the mandate to passionately continue his passionate but humble service to the Umuahia alumni with his usual tenacity, and doggedness ascribed as of a true Umuahian.</p>
 
         <p>With a mission grounded in unity, transparency, and legacy preservation, Dr. Ahaiwe is committed to securing and restoring the soul of Government College Umuahia — protecting its boundaries and strengthening governance.</p>
 
@@ -218,24 +218,22 @@
         <h4>Dr. Chinedum Ahaiwe</h4>
         <p>National President (Class of ’67) — Abuja</p>
       </div>
-
-        <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251215-WA0004_evzz5f.jpg">
-        <h4>Igba Ndubuisi</h4>
-        <p>Financial Secretary</p>
-        </div>
-      <div class="leader-card">
+       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761428211/IMG-20251023-WA0000_wr6khf.jpg" alt="Vice Chairman">
         <h4>Sir Onyi Wamah</h4>
         <p>Vice Chairman (Class of ’78) — Umuahia</p>
       </div>
-
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761428211/IMG-20251023-WA0001_ziczbv.jpg" alt="Second Vice Chairman">
         <h4>Eze Uwaga</h4>
         <p>2nd Vice Chairman (Class of ’77) — Port Harcourt</p>
       </div>
-
+        <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251215-WA0004_evzz5f.jpg">
+        <h4>Igba Ndubuisi</h4>
+        <p>Financial Secretary</p>
+        </div>
+      
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946692/IMG-20251215-WA0006_o3ivtn.jpg" alt="Secretary">
         <h4>Chijioke Ibem-</h4>
