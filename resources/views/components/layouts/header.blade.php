@@ -112,7 +112,7 @@
       <div class="clock-time" id="clock-time">--:--:--</div>
       <div class="clock-date" id="clock-date">Loading…</div>
     </span>
-    <div class="ticker"><marquee>Up Umuahia! Up Umuahia!!</marquee></div>
+    <marquee>Up Umuahia! Up Umuahia!!</marquee>
   </div>
 
  
