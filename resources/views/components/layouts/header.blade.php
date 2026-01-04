@@ -98,10 +98,11 @@
       .branch-category { padding: 20px; }
     }
 
-         .move-text {
+ .move-text {
   position: relative;
   white-space: nowrap;
   animation: moveLeft 8s linear infinite;
+ color: white;
 }
 
 @keyframes moveLeft {
