@@ -100,7 +100,9 @@
 
  .move-text {
   position: relative;
-   right: 80%;
+   right: 90%;
+    width:100%;
+    text-align: right;
   white-space: nowrap;
   animation: moveLeft 8s linear infinite;
   animation-delay:0.8s;
