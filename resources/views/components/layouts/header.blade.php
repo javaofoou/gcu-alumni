@@ -97,6 +97,21 @@
       .branch-item { padding: 12px 10px; font-size: 0.9rem; }
       .branch-category { padding: 20px; }
     }
+
+         .move-text {
+  position: relative;
+  white-space: nowrap;
+  animation: moveLeft 8s linear infinite;
+}
+
+@keyframes moveLeft {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
    
 </style>
 
@@ -112,7 +127,7 @@
       <div class="clock-time" id="clock-time">--:--:--</div>
       <div class="clock-date" id="clock-date">Loading…</div>
     </span>
-    <marquee>Up Umuahia! Up Umuahia!!</marquee>
+    <div class="move-text">Up Umuahia! Up Umuahia!!</div>
   </div>
 
  
