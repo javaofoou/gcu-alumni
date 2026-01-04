@@ -100,8 +100,10 @@
 
  .move-text {
   position: relative;
+   right: 80%;
   white-space: nowrap;
   animation: moveLeft 8s linear infinite;
+  animation-delay:0.8s;
  color: white;
 }
 
