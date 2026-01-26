@@ -19,10 +19,48 @@ class AuthController extends Controller{
         return view('auth.register');
     }
 
-    public function showForgotPassword()
+   public function showForgotPassword()
 {
     return view('auth.forgot-password');
 }
+
+public function resetPasswordDirect(Request $req)
+{
+    $req->validate([
+        'email' => 'required|email',
+        'password' => 'required|min:6',
+        'confirm_password' => 'required|same:password'
+    ], [
+        'confirm_password.same' => 'Passwords do not match'
+    ]);
+
+    // Check if user exists
+    $res = Http::withHeaders([
+        'apikey' => env('SUPABASE_KEY'),
+        'Authorization' => 'Bearer ' . env('SUPABASE_KEY')
+    ])->get(env('SUPABASE_URL') . '/rest/v1/users', [
+        'email' => 'eq.' . $req->email,
+        'select' => 'id,email'
+    ]);
+
+    $user = $res->json()[0] ?? null;
+
+    if (!$user) {
+        return back()->withErrors(['email' => 'Email not found']);
+    }
+
+    // Update password
+    Http::withHeaders([
+        'apikey' => env('SUPABASE_KEY'),
+        'Authorization' => 'Bearer ' . env('SUPABASE_KEY')
+    ])->patch(
+        env('SUPABASE_URL') . '/rest/v1/users?email=eq.' . $req->email,
+        ['password' => Hash::make($req->password)]
+    );
+
+    return redirect('/login')->with('success', 'Password updated successfully. You can now login.');
+}
+
 
     public function createAccount(Request $req)
     {
