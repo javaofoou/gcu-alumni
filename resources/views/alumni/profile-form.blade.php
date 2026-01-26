@@ -415,7 +415,8 @@ footer{
 
       <div class="fields">
         <label>NIN <small>Optional</small></label>
-        <input type="text" name="nin" value="{{ old('nin') }}">
+        <input type="text" name="nin" placeholder="Where Non Provided,Branch Leader's contact"
+            value="{{ old('nin') }}">
       </div>
 
       <div class="fields">
