@@ -1,3 +1,4 @@
+ <x-layouts.app/>
 <!DOCTYPE html>
 <html>
 <head>
