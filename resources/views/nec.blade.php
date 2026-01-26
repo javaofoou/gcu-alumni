@@ -221,13 +221,24 @@
        <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761428211/IMG-20251023-WA0000_wr6khf.jpg" alt="Vice Chairman">
         <h4>Sir Onyi Wamah</h4>
-        <p>Vice Chairman (Class of ’78) — Umuahia</p>
+        <p>Vice President (Class of ’78) — Umuahia</p>
       </div>
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761428211/IMG-20251023-WA0001_ziczbv.jpg" alt="Second Vice Chairman">
         <h4>Eze Uwaga</h4>
-        <p>2nd Vice Chairman (Class of ’77) — Port Harcourt</p>
+        <p>2nd Vice President (Class of ’77) — Port Harcourt</p>
       </div>
+      <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767018352/IMG-20251229-WA0031_ybtycl.jpg" alt="Secretary">
+        <h4>Barr. Nkem Egbuta</h4>
+        <p>National General Secretary.</p>
+      </div>
+         <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767018334/IMG-20251229-WA0032_zdohbn.jpg" alt="Legal Adviser">
+        <h4>Onyia F.C.</h4>
+        <p>Assistant Secretary General</p>
+      </div>
+        
         <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946693/IMG-20251215-WA0004_evzz5f.jpg">
         <h4>Igba Ndubuisi</h4>
@@ -241,23 +252,17 @@
       </div>
 
         <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767018352/IMG-20251229-WA0031_ybtycl.jpg" alt="Secretary">
-        <h4>Barr. Nkem Egbuta</h4>
-        <p>National General Secretary.</p>
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946692/IMG-20251215-WA0020_gt8elt.jpg" alt="Welfare Officer">
+        <h4>Nkemakolam Nnata</h4>
+        <p>Welfare Officer</p>
       </div>
-       
+        
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761512637/IMG-20251026-WA0036_be0cwc.jpg" alt="Treasurer">
         <h4>Wisdom Ikota</h4>
         <p>Treasurer (Class of ’95) — Umuahia</p>
       </div>
-
-      <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1765946692/IMG-20251215-WA0020_gt8elt.jpg" alt="Welfare Officer">
-        <h4>Nkemakolam Nnata</h4>
-        <p>Welfare Officer</p>
-      </div>
-            
+      
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761513594/IMG-20251025-WA0031_1_rhwzan.jpg" alt="Legal Adviser">
         <h4>Chief Uche C. Ihediwa, SAN</h4>
@@ -269,7 +274,12 @@
         <h4>Ed Ukaonu</h4>
         <p>USA Chapter Representative</p>
       </div>
-
+      <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761512637/IMG-20251026-WA0052_e8z4ia.jpg" alt="UK Chapter">
+        <h4>Ebizie Chijioke</h4>
+        <p>UK Chapter Representative</p>
+      </div>
+    </div>
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761512638/IMG-20251026-WA0050_lhclcg.jpg" alt="Patron">
         <h4>Igwe HRH Prof. Laz Ekwueme</h4>
@@ -281,19 +291,7 @@
         <h4>Barr. Godwin Akobueze</h4>
         <p>Legal Adviser</p>
       </div>
-      <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1767018334/IMG-20251229-WA0032_zdohbn.jpg" alt="Legal Adviser">
-        <h4>Onyia F.C.</h4>
-        <p>Assistant Secretary General</p>
-      </div>
-            
-      <div class="leader-card">
-        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761512637/IMG-20251026-WA0052_e8z4ia.jpg" alt="UK Chapter">
-        <h4>Ebizie Chijioke</h4>
-        <p>UK Chapter Representative</p>
-      </div>
-    </div>
-
+        
     <p class="note"><em>Public Relations Officer (PRO) is zoned to Lagos branch for nomination.</em></p>
   </section>
 <x-layouts.footer/>
