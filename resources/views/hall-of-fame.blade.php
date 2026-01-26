@@ -9,7 +9,7 @@
     }
     .hof-card img{
       width: 100%;
-      height: 80%;
+      height: 230px;
       object-fit: cover;
       border-radius: 8px;
       margin-bottom: 20px;
