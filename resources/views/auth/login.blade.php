@@ -38,7 +38,9 @@ form button {width:100%; background:#B22222; color:#fff; border:none; padding:12
     <input type="password" name="password" placeholder="Password" required>
     <button type="submit">Login</button>
 </form>
-
+<p style="text-align:center;margin-top:10px;">
+<a href="{{ route('password.forgot') }}">Forgot Password?</a>
+</p>
 </div>
 </body>
 </html>
