@@ -414,7 +414,7 @@ footer{
       </div>
 
       <div class="fields">
-        <label>NIN <small>Required</small></label>
+        <label>NIN <small>Optional</small></label>
         <input type="text" name="nin" value="{{ old('nin') }}">
       </div>
 
