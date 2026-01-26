@@ -200,6 +200,11 @@
         <h4>Prof. Emeka Aniagolu</h4>
         <p>Member, FEDT Board</p>
       </div>
+        <div class="leader-card">
+        <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1769396132/IMG-20260126-WA0001_l1lwjw.jpg">
+        <h4></h4>
+        <p></p>
+      </div>
 
       <div class="leader-card">
         <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761578383/IMG-20251027-WA0029_irq32m.jpg" alt="Justice Obisike Oji">
