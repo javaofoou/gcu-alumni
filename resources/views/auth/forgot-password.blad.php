@@ -80,3 +80,4 @@ button {
 </div>
 </body>
 </html>
+ <script src="{{ asset('js/header.js') }}"></script>
