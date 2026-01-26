@@ -1,16 +1,11 @@
-<<<<<<< HEAD
 <style>
    .hof-item{
      width: 350px;
      height: 340px;
    }
 </style>
-<!-- Hero Slider -->
- <div id="head_animation">
-=======
  <!-- Hero Slider -->
 <div id="head_animation">
->>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
     <swiper-container
       class="mySwiper"
       pagination="true"
@@ -23,11 +18,8 @@
       <swiper-slide><img src="images/animations/upcoming_events.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761130085/IMG-20251019-WA0000_pkih9q.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801438/IMG-20251025-WA0068_1_csdspt.jpg"/></swiper-slide>
-<<<<<<< HEAD
+
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761863055/IMG-20251030-WA0032_fj9fon.jpg"/></swiper-slide>
-=======
-      <swiper-slide><img src="      https://res.cloudinary.com/dhxdkejh3/image/upload/v1761863055/IMG-20251030-WA0032_fj9fon.jpg"/></swiper-slide>
->>>>>>> afcb11ac4fb469342ebef470a96095e446ad1d21
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761128679/boardoftrustees_stnyro.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801357/IMG-20251028-WA0045_c8k5nn.jpg"/></swiper-slide>
       <swiper-slide><img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1761801401/IMG-20251028-WA0042_on7c27.jpg"/></swiper-slide>
@@ -45,12 +37,9 @@
   <h2 class="news-header">Latest News & Announcements</h2>
   <div class="news-slider">
     <div class="news-track">
-      <div class="news-item">
-  <img src="images/animations/upcoming_events.jpg" alt="Upcoming Alumni Event">
-  <p>
-     Upcoming Alumni Conference — Join Old Boys across chapters for the 2025 GCUOBA Summit, celebrating unity, legacy, and institutional renewal. 
-    Stay tuned for event details and registration updates.
-  </p>
+    <div class="news-item">
+  <img src="https://res.cloudinary.com/dhxdkejh3/image/upload/v1769395979/IMG-20260126-WA0000_pxgbkb.jpg" alt="Upcoming Alumni Event">
+  <p></p>
 </div>
 <!-- News 8 -->
 <div class="news-item">
